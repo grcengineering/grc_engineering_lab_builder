@@ -133,11 +133,15 @@ Weave their stated organizational challenges throughout:
 - "Inconsistent risk scoring" → build quantitative frameworks
 - "Board reporting gaps" → create executive communication templates
 
-### Respect Their Time
+### Respect Their Timeline Preference
 
-- "2 hours/week" → 8-12 week lab with focused activities
-- "Intensive weekend" → Condensed 2-day sprint format
-- "15 min daily" → Micro-lessons with daily check-ins
+- "4-week sprint" + "5-10 hours/week" → 20-40 total hours, dense weekly activities
+- "12-week gradual" + "2-3 hours/week" → 24-36 total hours, bite-sized weekly milestones
+- "2-day intensive" + "Full-time" → 16-20 total hours, crash course format
+- "1 week quick win" → 5-10 total hours, single deliverable focus
+- "Flexible/self-paced" → No fixed timeline, milestone-based progression
+
+Design lab duration to match THEIR timeline preference, not a fixed 4-12 week structure.
 
 ### Adapt to Career Context
 
@@ -201,7 +205,9 @@ Ask yourself:
 
 **Career Stage:** [STAGE - e.g., "Early career (0-3 yrs)", "Mid-career (3-7 yrs)", "Senior professional (7+ yrs)", "Career changer", "People manager", "Executive"]
 
-**Time Availability:** [SCHEDULE - e.g., "15 min daily", "3 hours weekly", "Weekend projects", "Flexible self-paced", "Intensive 2-week sprint"]
+**Preferred Lab Timeline:** [TIMELINE - e.g., "4-week intensive sprint", "8-week gradual pace", "12-week extended learning", "2-day weekend crash course", "Flexible/self-paced", "1 week quick win"]
+
+**Time Availability Per Week:** [HOURS - e.g., "2-3 hours/week", "5-10 hours/week", "15+ hours/week", "Varies by week", "Full-time for short period"]
 
 **Learning Motivation:** [WHY - e.g., "Career advancement/promotion", "Job requirement", "Preparing for career transition", "Personal curiosity", "Team improvement", "Build consulting practice"]
 
