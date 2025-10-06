@@ -88,7 +88,7 @@ You can always switch prompts later or combine elements from multiple prompts!
 
 ## 📖 Setting Up in Different AI Tools
 
-### ChatGPT (Recommended: GPT-4 or GPT-4o)
+### ChatGPT (Recommended: GPT-5)
 
 1. Start a new chat
 2. Paste your completed GRC profile from your_grc_profile.md
