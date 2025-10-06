@@ -51,7 +51,7 @@ Once you've completed your [GRC Profile](../your_grc_profile.md), choose the pro
 **Use: [career_transition.md](career_transition.md)**
 
 **You should use this if:**
-- You're new to GRC but have adjacent experience (IT, audit, security, compliance)
+- You're new to GRC but have adjacent experience (IT, security, engineering, legal)
 - You need to establish credibility quickly
 - You're facing skeptical stakeholders or team members
 - You want to deliver quick wins in first 90 days
@@ -97,7 +97,7 @@ You can always switch prompts later or combine elements from multiple prompts!
 
 **Pro Tip:** Save successful chats for future reference
 
-### Claude (Projects or Chat)
+### Claude (My favourite!)
 
 **Option A: Use Claude Projects** (Recommended)
 1. Create a new Project

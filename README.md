@@ -88,7 +88,7 @@ The lab matches your:
 A: Yes! You specify your technical level in the baseline. Labs adapt from "never coded" to "advanced scripting."
 
 **Q: Which AI tool should I use?**
-A: ChatGPT (GPT-4), Claude, or Google Gemini all work great. [Setup guides here](user_prompts/README.md).
+A: ChatGPT (GPT-5), Claude, or Google Gemini all work great. [Setup guides here](user_prompts/README.md).
 
 **Q: How long does a lab take?**
 A: You control it. Specify your time commitment (e.g., "2 hours/week" or "intensive weekend") and the lab adapts.

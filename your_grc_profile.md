@@ -179,7 +179,7 @@ Ask yourself:
 
 # ✏️ YOUR INFORMATION (Fill This Out With Your Details)
 
-> **Instructions:** Replace all the [BRACKETED] placeholders below with your actual information. Be as specific as possible - the more detail you provide, the better your personalized learning labs will be.
+> **Instructions:** Replace all the [BRACKETED] placeholders below with your actual information. Be as specific as possible - the more detail you provide, the better your personalized learning labs will be. Keep in mind you don't have to fill everything. Fill out what you can/makes sense to your case.
 >
 > **Privacy Note:** This information is only used to customize your learning experience. Don't include any confidential company data - just describe your environment structure (e.g., "Google Workspace" not "our company's Gmail passwords").
 
@@ -229,7 +229,7 @@ Ask yourself:
 
 ---
 
-## 👥 Governance & Stakeholder Environment
+## 👥 Stakeholder Environment
 
 **Board Structure:** [GOVERNANCE - e.g., "Quarterly risk committee", "Annual audit committee", "No formal board", "Monthly exec briefings", "Ad-hoc reporting"]
 
@@ -245,19 +245,25 @@ Ask yourself:
 
 ---
 
-## 🎯 Risk & Vendor Management
+## 🎯 GRC Program Context
 
-**Risk Methodology:** [RISK_APPROACH - e.g., "Quantitative analysis", "Qualitative scoring", "Hybrid approach", "Still developing", "Following NIST/ISO frameworks"]
+**Risk Methodology:** [RISK_APPROACH - e.g., "Quantitative analysis", "Qualitative scoring", "Hybrid approach", "Still developing", "Following NIST/ISO frameworks", "Risk registers with heat maps"]
 
-**Vendor Ecosystem:** [TPRM_CONTEXT - e.g., "200+ vendors", "50 critical suppliers", "500+ rapid growth", "Legacy vendor base", "Cloud-heavy", "Few critical vendors"]
+**Control Testing Approach:** [TESTING_METHOD - e.g., "Manual sampling", "Automated continuous testing", "Quarterly reviews", "Event-driven testing", "Platform-based testing (e.g., Vanta, Drata)", "Hybrid manual + automated"]
 
-**Assessment Tools:** [VENDOR_TOOLS - e.g., "ServiceNow GRC", "Custom spreadsheets", "Shared questionnaires", "Manual emails", "Archer", "OneTrust", "Google Sheets"]
+**Evidence Collection:** [EVIDENCE_PROCESS - e.g., "Manual evidence gathering", "Automated screenshot/log collection", "Continuous compliance monitoring", "Quarterly evidence packages", "Real-time API-based evidence", "Still building process"]
 
-**Regulatory Environment:** [REGULATION - e.g., "Highly regulated (HIPAA/SOC2)", "Emerging compliance needs", "Multiple jurisdictions", "GDPR + SOC2", "Minimal regulation"]
+**Audit Preparation:** [AUDIT_CADENCE - e.g., "Annual SOC 2 Type 2", "Quarterly internal audits", "ISO 27001 certification", "Ad-hoc external audits", "Multiple frameworks simultaneously", "No formal audits yet"]
 
-**Risk Appetite Statement:** [RISK_APPETITE - e.g., "Formal documented", "Informal understood", "Unclear/inconsistent", "None exists", "Under development"]
+**Vendor/Third-Party Risk:** [TPRM_CONTEXT - e.g., "200+ vendors to assess", "50 critical suppliers", "500+ rapid growth", "Legacy vendor base", "Cloud-heavy SaaS vendors", "Few critical vendors", "Not applicable to my role"]
 
-**Vendor Assessment Cadence:** [FREQUENCY - e.g., "Continuous monitoring", "Annual reviews", "Event-driven only", "Ad-hoc/reactive", "Quarterly for critical vendors"]
+**GRC Tools/Platforms:** [GRC_TOOLS - e.g., "ServiceNow GRC", "OneTrust", "Archer", "Vanta", "Drata", "Custom spreadsheets", "Manual processes", "Exploring options", "Multiple disconnected tools"]
+
+**Compliance Frameworks:** [FRAMEWORKS - e.g., "SOC 2 Type 2", "ISO 27001", "NIST CSF", "HIPAA", "GDPR", "PCI DSS", "Multiple frameworks", "Emerging compliance needs", "Minimal regulation"]
+
+**Policy Management:** [POLICY_APPROACH - e.g., "Formal policy library", "Policy-as-code initiatives", "Manual Word docs", "Under development", "Centralized in GRC platform", "Distributed across teams"]
+
+**Control Library:** [CONTROLS - e.g., "Custom control framework", "Following ISO 27001 Annex A", "SOC 2 TSC-based", "NIST 800-53", "Building from scratch", "Inherited from audit firm"]
 
 ---
 

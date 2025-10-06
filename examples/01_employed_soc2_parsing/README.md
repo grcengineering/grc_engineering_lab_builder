@@ -94,7 +94,7 @@ The lab progressed through these phases:
 4. Adapt the approach for your specific vendor documents and workflow
 
 ### If You Want to Replicate This:
-1. Copy the persona template from [system_prompt.md](../../system_prompt.md)
+1. Copy the persona template from [your_grc_profile.md](../../your_grc_profile.md)
 2. Fill in YOUR details (your technical level, your tools, your challenges)
 3. Copy the relevant prompt from [employed.md](../../user_prompts/employed.md)
 4. Customize for your specific document type and goal
@@ -179,11 +179,13 @@ The learner is now working on Phase 2:
 
 ---
 
-## 📚 Related Examples
+## 🔄 Want to Create Your Own Lab?
 
-- Looking for a job? See [Job Seeking Portfolio Example](../02_job_seeking_portfolio/)
-- New to GRC? See [Career Transition Quick Wins](../03_transition_quick_wins/)
-- Want to build something similar? Use the [employed prompt](../../user_prompts/employed.md)
+This is just one example of what's possible. Create your own personalized learning lab:
+
+- **Employed in GRC?** Use the [employed prompt](../../user_prompts/employed.md)
+- **Looking for a job?** Use the [job seeking prompt](../../user_prompts/job_seeking.md)
+- **Transitioning to GRC?** Use the [career transition prompt](../../user_prompts/career_transition.md)
 
 ---
 
