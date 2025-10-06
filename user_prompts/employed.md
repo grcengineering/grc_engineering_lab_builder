@@ -1,252 +1,182 @@
-# User Prompt: Employed in GRC - Advancement & Impact
+# User Prompt: Employed in GRC - Advancement Lab
 
-**Use this prompt if:** You're currently working in a GRC role and want to demonstrate value, advance your career, or improve your effectiveness.
-
----
-
-## 📋 Instructions
-
-1. First, complete your [GRC Baseline Context](../system_prompt.md)
-2. Choose ONE scenario below that best matches your goal
-3. Copy the **System Prompt** + **Your Baseline** + **Selected Scenario** into your AI assistant
-4. Customize all [BRACKETED] sections with your specific details
+**Use this prompt if:** You're currently working in a GRC role and want to build skills that demonstrate value, earn promotion, or solve real problems in your organization.
 
 ---
 
-## Scenario 1: Build Leadership Artifacts
+## 📋 How to Use This
 
-**Use this when:** You need to create executive-ready deliverables (slide decks, dashboards, board reports, business cases)
+1. First, complete your [your_grc_profile.md](../your_grc_profile.md)
+2. Fill out ALL [BRACKETED] sections below with your specific details
+3. Copy **your_grc_profile.md** + **this completed prompt** into your AI assistant
+4. Receive a personalized learning lab that solves real work problems
 
-### Your Learning Request:
+---
+
+## Your Lab-Building Request
 
 ```
 Reference my GRC Baseline Context above, then:
 
-Create comprehensive learning experience for building executive-ready leadership artifacts.
-
-Learning Objective: Create [DELIVERABLE_TYPE - e.g., "risk dashboard", "board presentation", "business case for GRC automation"]
-
-Application Context: I need to present to [AUDIENCE - e.g., "CEO and Board Risk Committee", "CFO for budget approval", "executive team quarterly review"] to [PURPOSE - e.g., "secure $200K budget", "demonstrate program value", "get approval for new initiative"]
-
-Current Starting Point: [YOUR_CURRENT_STATE - e.g., "I create basic Excel reports but they're not executive-ready", "I have data but don't know how to visualize it compellingly", "I've never presented to the board before"]
-
-Time Investment: [REALISTIC_COMMITMENT - e.g., "10 hours to create first version", "2 hours/week for ongoing refinement"]
-
-Generate learning lab that:
-- Matches my technical skill level and preferred learning style
-- Uses my actual business systems and reporting tools
-- Addresses challenges specific to my stakeholder environment
-- Creates artifacts that resonate with my organizational culture
-- Provides coaching on presenting and defending my work
-- Builds reusable templates for future deliverables
-
-Design for practical skill building that helps me [SPECIFIC_GOAL - e.g., "secure budget approval", "earn promotion to senior role", "establish executive credibility"].
-
-Include:
-- Template structure optimized for my audience
-- Data visualization best practices for non-technical executives
-- Storytelling techniques that translate GRC work to business value
-- Anticipated questions and strong responses
-- Metrics that matter to my stakeholders
-```
+Create a comprehensive learning lab that builds a skill or tool I can use immediately in my current role.
 
 ---
 
-## Scenario 2: Automate Manual Processes
+## PROJECT FOCUS
 
-**Use this when:** You're spending too much time on repetitive tasks and want to build automation to free up strategic work
+Learning Objective: Build [DELIVERABLE - e.g., "automated SOC 2 review process", "executive risk dashboard", "vendor risk scoring framework", "control testing workflow", "board presentation template", "GRC automation script"]
 
-### Your Learning Request:
+Business Problem I'm Solving: [SPECIFIC_PROBLEM - e.g., "Spending 15 hours/week on manual vendor reviews", "CFO wants data-driven risk reporting and I have spreadsheets", "Board keeps asking questions I can't answer quickly", "Control testing is ad-hoc and inconsistent", "Can't scale current processes as company grows"]
 
-```
-Reference my GRC Baseline Context above, then:
+Impact I Want to Achieve: [MEASURABLE_GOAL - e.g., "Reduce vendor review time from 3 hours to 45 minutes each", "Create dashboard that updates automatically for quarterly board meetings", "Cut manual data entry from 10 hours/week to 1 hour/week", "Establish repeatable framework I can train team on"]
 
-Create comprehensive learning experience for automating manual GRC processes.
-
-Learning Objective: Automate [MANUAL_TASK - e.g., "vendor SOC 2 review", "control evidence collection", "risk assessment data entry", "compliance tracking spreadsheet updates"]
-
-Application Context: Currently spending [TIME - e.g., "15 hours/week", "3+ hours per vendor"] on this manual process. Want to reduce to [TARGET - e.g., "2 hours/week", "30 minutes per vendor"] so I can focus on [STRATEGIC_WORK - e.g., "risk analysis", "stakeholder engagement", "program strategy"].
-
-Current Starting Point: [YOUR_TECHNICAL_LEVEL - e.g., "Never automated anything before", "Basic Excel macros", "Comfortable with Python basics", "Used RPA tools before"]
-
-Time Investment: [REALISTIC_COMMITMENT - e.g., "4 hours/week for 8 weeks to build automation"]
-
-Generate learning lab that:
-- Matches my current technical capabilities (with step-by-step if needed)
-- Works within my company's technology environment and security constraints
-- Integrates with my existing tools and workflows
-- Produces measurable time savings I can demonstrate to leadership
-- Builds maintainable automation (not brittle scripts)
-- Includes documentation for handoff or training others
-
-Design for practical skill building that delivers:
-- Working automation I can deploy immediately
-- Time savings metrics to show my manager
-- Reusable approach for other manual processes
-- Confidence to tackle future automation projects
-
-Focus on [SPECIFIC_PAIN_POINT - e.g., "the data extraction and standardization part that takes longest", "the copy-paste steps that cause errors", "the manual checks that are tedious but critical"].
-```
+Strategic Value: [WHY_THIS_MATTERS - e.g., "Will free up 60% of my time for strategic work", "Demonstrates value for upcoming promotion conversation", "Positions me as technical leader on the team", "Solves pain point leadership keeps complaining about"]
 
 ---
 
-## Scenario 3: Technical Upskilling
+## MY CURRENT SITUATION
 
-**Use this when:** You need to learn specific technical tools, frameworks, or capabilities to be more effective in your role
+Role & Responsibilities: [CURRENT_ROLE - e.g., "TPRM Analyst managing 500+ vendors", "GRC Manager building program from scratch", "Senior Risk Analyst supporting board reporting", "Compliance Lead for SOC 2/ISO 27001"]
 
-### Your Learning Request:
+Time Spent on Manual Work: [BREAKDOWN - e.g., "20 hours/week on vendor reviews, 10 hours on reporting, 5 hours on evidence collection", "Most time on repetitive document analysis", "Constantly firefighting instead of strategic work"]
 
-```
-Reference my GRC Baseline Context above, then:
+Current Tools & Processes: [WHAT_EXISTS - e.g., "Google Sheets for tracking, manual PDF reviews", "OneTrust GRC platform but not using it effectively", "Excel-based control library and risk register", "No automation, everything manual"]
 
-Create comprehensive learning experience for technical upskilling in [SKILL/TOOL - e.g., "SQL for GRC data analysis", "Python for audit automation", "PowerBI for risk dashboards", "API integration for vendor data", "AWS security fundamentals"].
-
-Learning Objective: Gain working proficiency in [SPECIFIC_CAPABILITY - e.g., "writing SQL queries to analyze vendor data", "building interactive dashboards in PowerBI", "using Python to automate evidence collection"]
-
-Application Context: I need this skill because [WHY - e.g., "our team is migrating to a new GRC platform that requires SQL", "leadership wants interactive dashboards and I only know Excel", "manual processes are unsustainable as we scale"]
-
-Current Starting Point: [YOUR_BASELINE - e.g., "Never used SQL before", "Familiar with Excel but not PowerBI", "Know Python basics but not applied to GRC work"]
-
-Time Investment: [REALISTIC_COMMITMENT - e.g., "3 hours/week for 10 weeks"]
-
-Generate learning lab that:
-- Builds skill progressively from my current level
-- Uses GRC-specific examples and use cases (not generic tutorials)
-- Produces artifacts I can actually use in my job
-- Works within my company's technical environment
-- Includes troubleshooting for common issues
-- Provides resources for continued learning
-
-Design for practical skill building that results in:
-- Confidence using [TOOL/SKILL] for real GRC work
-- At least 3 working examples/projects from my actual job
-- Understanding of when and how to apply this skill
-- Portfolio pieces I can show in future job interviews
-
-Focus on [SPECIFIC_APPLICATION - e.g., "vendor risk analysis workflows", "audit evidence queries", "control testing automation", "executive risk reporting"].
-```
+Team & Resources: [CONTEXT - e.g., "Team of 1 (just me)", "Team of 3 but I'm only technical person", "Matrixed team across security/legal/compliance", "Budget exists but need to prove ROI first"]
 
 ---
 
-## Scenario 4: Build Thought Leadership
+## TECHNICAL STARTING POINT
 
-**Use this when:** You want to raise your visibility through content, speaking, or community contributions
+Current Technical Skills: [HONEST_ASSESSMENT - e.g., "Advanced Excel, basic Python", "No coding, strong in frameworks and process design", "SQL comfortable, Python learning", "Can use tools but never built anything from scratch"]
 
-### Your Learning Request:
+Tools I Have Access To: [AVAILABLE_RESOURCES - e.g., "Google Workspace, can install Python", "Microsoft 365, Power BI available", "Salesforce, limited API access", "OneTrust GRC platform", "Free/open-source tools only"]
 
-```
-Reference my GRC Baseline Context above, then:
+Technical Constraints: [LIMITATIONS - e.g., "Can't access production databases directly", "IT security blocks most installations", "No budget for paid tools", "Need solutions that don't require dev team support"]
 
-Create comprehensive learning experience for building GRC thought leadership.
-
-Learning Objective: Establish thought leadership in [TOPIC - e.g., "third-party risk management", "GRC automation", "AI governance", "vendor risk for startups"] through [MEDIUM - e.g., "blog posts", "LinkedIn articles", "conference talks", "podcast appearances", "GitHub contributions"]
-
-Application Context: I want to [GOAL - e.g., "position myself for promotion", "build personal brand for future consulting", "contribute to GRC community", "establish internal credibility"]
-
-Current Starting Point: [YOUR_BASELINE - e.g., "Never published anything publicly", "Uncomfortable with public speaking", "Don't know what unique perspective I have", "Written internal docs but nothing external"]
-
-Time Investment: [REALISTIC_COMMITMENT - e.g., "2 hours/week for content creation"]
-
-Generate learning lab that:
-- Helps me identify my unique perspective/expertise
-- Provides frameworks for creating compelling content
-- Teaches storytelling for GRC topics (making compliance interesting!)
-- Gives distribution strategies appropriate for my goals
-- Includes templates for articles, talks, posts
-- Addresses imposter syndrome and fear of judgment
-
-Design for practical skill building that results in:
-- Published content I'm proud of (3-5 pieces in first 90 days)
-- Growing audience/network in GRC community
-- Recognition from peers and leadership
-- Differentiation from other GRC professionals
-
-Focus on [SPECIFIC_ANGLE - e.g., "practical automation techniques others can use", "lessons learned from scaling GRC programs", "translating complex risks for non-technical audiences", "efficient GRC for resource-constrained teams"].
-```
+Learning Style Preference: [HOW_YOU_LEARN - e.g., "Hands-on with examples I can copy-paste", "Need concepts explained before diving in", "Learn by doing, minimal theory", "Need step-by-step for technical stuff"]
 
 ---
 
-## Scenario 5: Strategic Frameworks & Methodologies
+## TIME & URGENCY
 
-**Use this when:** You need to build or improve foundational frameworks (risk scoring, control testing, program design)
+Time Commitment: [REALISTIC_HOURS - e.g., "5 hours/week for 8 weeks", "2 hours/weekend for 6 weeks", "Intensive 30-hour sprint over 2 weeks"]
 
-### Your Learning Request:
+Timeline Driver: [WHY_NOW - e.g., "Board meeting in 6 weeks and need dashboard", "Performance review in 3 months", "Company scaling fast and current process breaking", "New initiative launching Q1"]
 
-```
-Reference my GRC Baseline Context above, then:
-
-Create comprehensive learning experience for building/improving [FRAMEWORK_TYPE - e.g., "quantitative risk scoring methodology", "control testing approach", "vendor tiering model", "GRC program maturity assessment"].
-
-Learning Objective: Develop a [FRAMEWORK] that [PURPOSE - e.g., "replaces our inconsistent qualitative scoring", "scales control testing across 50+ controls", "prioritizes our 500+ vendors for review frequency"]
-
-Application Context: Currently [PROBLEM - e.g., "risk scores vary wildly between analysts", "we can't defend our vendor prioritization to auditors", "control testing is ad-hoc and incomplete"]
-
-Current Starting Point: [YOUR_BASELINE - e.g., "Using inherited framework I don't understand", "Starting from scratch", "Have framework but it's not working well"]
-
-Time Investment: [REALISTIC_COMMITMENT - e.g., "5 hours/week for 6 weeks to design and pilot"]
-
-Generate learning lab that:
-- Teaches framework design principles
-- Reviews industry best practices and standards
-- Adapts approaches to my specific organizational context
-- Builds framework iteratively with validation checkpoints
-- Includes pilot testing approach
-- Provides stakeholder communication materials
-
-Design for practical skill building that results in:
-- Documented, defensible framework
-- Pilot results showing improvement over current state
-- Training materials for team rollout
-- Executive presentation of new approach
-- Confidence to refine and evolve framework over time
-
-Focus on [SPECIFIC_CHALLENGE - e.g., "making it quantitative enough for data analysis but practical for analysts to use", "balancing rigor with efficiency", "getting buy-in from skeptical stakeholders", "proving it's better than what we have now"].
-```
+Other Commitments: [CONSTRAINTS - e.g., "Busy season coming up", "Audit prep happening parallel", "Can only work on this during slow periods"]
 
 ---
 
-## 📝 Tips for Completing Your Request
+## DELIVERABLES & ARTIFACTS
 
-### Be Specific About Your "Why"
-- **Weak:** "I want to learn PowerBI"
-- **Strong:** "I need to learn PowerBI because our CFO wants interactive dashboards and my Excel reports aren't cutting it anymore. I have 6 weeks before quarterly board meeting."
+The lab should result in:
 
-### Quantify Your Current State
-- **Weak:** "Manual processes take too long"
-- **Strong:** "I spend 15 hours/week on vendor reviews that should take 5 hours. With 500+ vendors, this is unsustainable."
+### Core Working Solution
+[MAIN_DELIVERABLE - e.g., "Python script that parses SOC 2 PDFs and outputs structured data", "PowerBI dashboard connected to GRC platform", "Risk scoring model in Excel with documentation", "Automated workflow using Google Apps Script", "Control testing playbook with templates"]
 
-### Define Success Clearly
-- **Weak:** "Be better at presenting"
-- **Strong:** "Successfully present business case to CFO and secure $150K budget approval for GRC platform"
+### Documentation for Stakeholders
+Create materials to share this work:
+- **Manager/Leadership:** [AUDIENCE_APPROPRIATE - e.g., "One-pager showing time savings and ROI", "Executive summary with before/after metrics", "Business case for expanding this approach"]
+- **Team/Peers:** [PRACTICAL_DOCS - e.g., "Runbook so others can use it", "Training guide for handoff", "Best practices documentation"]
+- **Future You:** [MAINTENANCE - e.g., "Troubleshooting guide", "Notes on how to enhance later", "Lessons learned writeup"]
 
-### Acknowledge Constraints
-- **Weak:** "I want to automate everything"
-- **Strong:** "I can install Python locally but can't access production databases. Need solutions that work with CSV exports from our GRC tool."
+### Internal Presentation
+Guidance for presenting this work including:
+- **To my manager:** [PITCH_ANGLE - e.g., "Quantified time savings and propose expanding scope", "Position as foundation for larger automation initiative", "Use as evidence for promotion/raise conversation"]
+- **To executives:** [EXECUTIVE_FRAMING - e.g., "Business value and risk reduction", "How this scales with company growth", "ROI calculation and next steps"]
+- **To my team:** [PEER_LEVEL - e.g., "Technical walkthrough and training", "How they can use it or adapt it", "Collaborative improvement ideas"]
+
+### Success Metrics
+Define how I'll measure impact:
+- **Quantitative:** [HARD_METRICS - e.g., "Time savings: 15 hours/week → 3 hours/week", "Vendor review time: 3 hours → 45 minutes", "Error rate reduction: 15% → 2%"]
+- **Qualitative:** [SOFT_BENEFITS - e.g., "Faster response to ad-hoc leadership questions", "More consistent risk scoring across analysts", "Freed up time for strategic projects"]
+- **Career Impact:** [VISIBILITY - e.g., "Positioned for promotion", "Recognized as technical leader", "Invited to contribute to other initiatives"]
+
+---
+
+## LEARNING APPROACH
+
+Structure: Break the lab into [TIMEFRAME - e.g., "6-week progressive build", "4-week intensive sprint", "Weekend-sized chunks I can complete flexibly"]
+
+Teach me through: [STYLE - e.g., "Step-by-step with screenshots for technical parts", "Concepts first then application", "Learning by doing with troubleshooting guidance", "Code I can copy-paste with explanations"]
+
+Balance: [FOCUS_RATIO - e.g., "70% building the tool, 30% stakeholder communication", "Equal parts technical + presentation skills", "Heavy on documentation and handoff (I'll build it but others will maintain)"]
+
+Difficulty Level: [CHALLENGE - e.g., "Push me to learn new skills but not overwhelming", "Stay within my current capabilities", "Ambitious but achievable given my time constraints"]
+
+---
+
+## ORGANIZATIONAL CONTEXT
+
+Company Culture: [CULTURE_FIT - e.g., "Fast-moving startup, scrappy solutions valued", "Enterprise corporate, need polished deliverables", "Risk-averse, need to show this is tried-and-true", "Innovation-focused, experimental approaches encouraged"]
+
+Stakeholder Expectations: [WHAT_THEY_VALUE - e.g., "CFO cares about ROI and metrics", "CISO wants defensible risk decisions", "Board wants clear visualizations and trends", "CEO wants proof we're scaling efficiently"]
+
+Approval/Politics: [NAVIGATION - e.g., "Need to show quick wins before asking for budget", "Have executive support already, just need to deliver", "Skeptical stakeholders who think current process is fine", "Competing priorities, need to prove this is urgent"]
+
+---
+
+## SUCCESS CRITERIA
+
+I'll know this lab is successful if:
+- [ ] I deliver a working solution I actually use in my job
+- [ ] Leadership recognizes the value (bonus/promotion/expanded scope)
+- [ ] The solution is maintainable (doesn't break after 2 weeks)
+- [ ] I learn skills I can apply to other problems
+- [ ] Time saved is measurable and significant
+- [ ] I feel more effective and less overwhelmed in my role
+
+---
+
+## ADDITIONAL CONTEXT
+
+Career Goal This Supports: [BIGGER_PICTURE - e.g., "Promotion to Senior Analyst in next 6 months", "Transition from execution to strategy role", "Build reputation as go-to person for GRC automation", "Foundation for consulting side business eventually"]
+
+Skills I Want to Develop: [LEARNING_GOALS - e.g., "Python for GRC automation", "Executive communication and storytelling", "Data visualization and dashboard design", "Framework design and documentation"]
+
+What Would Make This a "Home Run": [IDEAL_OUTCOME - e.g., "Leadership asks me to roll this out company-wide", "I present this at all-hands and get recognition", "This becomes the standard way we do this process", "I teach this to other teams and become internal expert"]
+
+Biggest Fear/Concern: [HONEST_WORRY - e.g., "I'll spend time on this and leadership won't care", "It'll break and I won't know how to fix it", "I'll get pulled into other fires and never finish", "Someone will say we already tried this and it didn't work"]
+```
 
 ---
 
 ## 🎯 What You'll Get
 
-Based on your completed prompt, the AI will generate:
+A complete learning lab that produces:
 
-1. **Multi-week learning path** (typically 4-12 weeks depending on complexity)
-2. **Week-by-week activities** with time estimates
-3. **Hands-on exercises** using your actual work context
-4. **Templates and frameworks** you can use immediately
-5. **Deliverable artifacts** that demonstrate value
-6. **Metrics and success criteria** to measure impact
-7. **Stakeholder communication guidance** for sharing your work
-
----
-
-## ✅ Ready to Generate Your Lab?
-
-1. Copy the [system_prompt.md](../system_prompt.md) with your completed baseline
-2. Copy ONE scenario above that matches your goal
-3. Customize all [BRACKETED] sections
-4. Paste into ChatGPT, Claude, or your preferred AI assistant
-5. Receive your personalized learning lab!
+✅ **Working solution** you deploy in your actual job
+✅ **Time savings** you can quantify for leadership
+✅ **Documentation** for stakeholders at every level
+✅ **Presentation materials** for manager/executive audiences
+✅ **Success metrics** that demonstrate impact
+✅ **Reusable approach** for future problems
+✅ **Career advancement** evidence for promotion conversations
 
 ---
 
-**Need inspiration?** Check out the [examples folder](../examples/) to see complete labs generated for other GRC professionals.
+## 📝 Tips for Success
+
+**Solve Real Problems:** Don't build something because it's interesting technically. Build what you actually need. If you're dreading a task, automate it.
+
+**Start With Quick Wins:** Pick a problem that drives you crazy and takes 5+ hours/week. Time savings are easy to measure and leadership notices.
+
+**Document Everything:** Your future self and your manager will thank you. "I saved 15 hours/week" with a runbook is promotion-worthy.
+
+**Show Your Work:** Don't wait until it's perfect. Share progress with your manager: "Week 2 of building X, already seeing Y benefit."
+
+**Think Beyond Yourself:** If your solution could help others on your team, document it for sharing. This positions you as a leader.
+
+---
+
+## ✅ Ready to Build?
+
+1. Complete your [your_grc_profile.md](../your_grc_profile.md)
+2. Fill out ALL [BRACKETED] sections above
+3. Copy both into ChatGPT, Claude, or your preferred AI assistant
+4. Receive your personalized learning lab that solves real work problems!
+
+---
+
+**Need inspiration?** Check out [examples/01_employed_soc2_parsing/](../examples/01_employed_soc2_parsing/) to see a complete lab for automating SOC 2 reviews.

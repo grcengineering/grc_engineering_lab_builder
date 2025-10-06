@@ -23,8 +23,8 @@ This tells the AI about:
 
 | Your Situation | Use This Prompt | What You'll Build |
 |----------------|-----------------|-------------------|
-| ✅ **Employed in GRC, want to advance** | [employed.md](user_prompts/employed.md) | Executive artifacts, dashboards, automation |
-| 🔍 **Looking for a GRC job** | [job_seeking.md](user_prompts/job_seeking.md) | Portfolio projects, interview prep, demos |
+| ✅ **Current GRC pro, want to advance** | [employed.md](user_prompts/employed.md) | Executive artifacts, dashboards, automation |
+| 🔍 **Looking for your first GRC job** | [job_seeking.md](user_prompts/job_seeking.md) | Portfolio projects, interview prep, demos |
 | 🔄 **Transitioning into GRC** | [career_transition.md](user_prompts/career_transition.md) | Quick wins, credibility builders, stakeholder tools |
 
 ### 3️⃣ Generate Your Lab

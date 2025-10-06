@@ -1,298 +1,207 @@
-# User Prompt: Job Seeking - Portfolio & Interview Preparation
+# User Prompt: Job Seeking - Portfolio Building Lab
 
-**Use this prompt if:** You're actively looking for GRC roles, transitioning careers, or need to build demonstrable GRC capability.
-
----
-
-## 📋 Instructions
-
-1. First, complete your [GRC Baseline Context](../system_prompt.md)
-2. Choose ONE scenario below that best matches your goal
-3. Copy the **System Prompt** + **Your Baseline** + **Selected Scenario** into your AI assistant
-4. Customize all [BRACKETED] sections with your specific details
+**Use this prompt if:** You're actively looking for GRC roles, building a portfolio to stand out, or need demonstrable skills for career transition.
 
 ---
 
-## Scenario 1: Build Portfolio Projects
+## 📋 How to Use This
 
-**Use this when:** You need demonstrable GRC projects to showcase capability (especially if changing careers or early career)
+1. First, complete your [your_grc_profile.md](../your_grc_profile.md)
+2. Fill out ALL [BRACKETED] sections below with your specific details
+3. Copy **your_grc_profile.md** + **this completed prompt** into your AI assistant
+4. Receive a personalized learning lab that builds both skills AND portfolio artifacts
 
-### Your Learning Request:
+---
+
+## Your Lab-Building Request
 
 ```
 Reference my GRC Baseline Context above, then:
 
-Create comprehensive learning experience for building a GRC portfolio project.
-
-Learning Objective: Build a complete, portfolio-worthy project demonstrating [SKILL/CAPABILITY - e.g., "vendor risk assessment methodology", "automated compliance tracking", "risk dashboard design", "control testing framework"]
-
-Application Context: I'm applying for [TARGET_ROLE - e.g., "TPRM Analyst", "GRC Consultant", "Risk Manager"] roles and need to prove I can [KEY_CAPABILITY - e.g., "assess vendor risks systematically", "build GRC tools", "communicate risks to executives"]
-
-Current Starting Point: [YOUR_BASELINE - e.g., "Have GRC theory from courses but no hands-on projects", "Coming from IT security with no formal GRC experience", "Early career with only 1 year experience"]
-
-Time Investment: [REALISTIC_COMMITMENT - e.g., "20 hours total over 4 weeks", "Weekend project intensive"]
-
-Generate learning lab that:
-- Creates a project I can confidently discuss in interviews
-- Produces public artifacts (GitHub repo, blog post, presentation)
-- Demonstrates practical capability, not just theoretical knowledge
-- Shows problem-solving and critical thinking
-- Uses realistic scenarios (even if with public/sample data)
-- Provides STAR method interview talking points
-
-Design for practical skill building that results in:
-- Completed project with documentation
-- Portfolio piece I can link in resume/LinkedIn
-- Compelling story: "Here's a problem I solved and how I did it"
-- Confidence discussing technical approach in interviews
-- Differentiation from other candidates who only have coursework
-
-Focus on [SPECIFIC_ASPECT - e.g., "showing quantitative analysis skills", "demonstrating automation capability", "proving communication skills through documentation", "highlighting strategic thinking"].
-
-The project should address: [REALISTIC_PROBLEM - e.g., "How do you prioritize 100+ vendors for assessment with limited resources?", "How do you track compliance across multiple frameworks efficiently?", "How do you visualize risk for non-technical executives?"]
-```
+Create a comprehensive learning lab that builds a portfolio project I can showcase to employers.
 
 ---
 
-## Scenario 2: Interview Preparation & STAR Responses
+## PROJECT FOCUS
 
-**Use this when:** You have interviews coming up and need structured preparation, especially for behavioral and situational questions
+Learning Objective: Build a complete portfolio project demonstrating [PRIMARY_SKILL - e.g., "vendor risk assessment methodology", "SOC 2 report analysis automation", "compliance gap analysis framework", "risk dashboard design", "control testing approach"]
 
-### Your Learning Request:
+Target Role: [JOB_TITLE] at [COMPANY_TYPE - e.g., "TPRM Analyst at fintech startup", "GRC Analyst at enterprise healthcare", "Risk Consultant at Big 4"]
 
-```
-Reference my GRC Baseline Context above, then:
+Why This Project: [STRATEGIC_REASON - e.g., "This skill appears in 80% of job postings I'm targeting", "It fills my biggest experience gap", "It demonstrates technical + communication skills together"]
 
-Create comprehensive interview preparation for GRC roles.
-
-Target Role: [JOB_TITLE] at [COMPANY_TYPE - e.g., "Third-Party Risk Manager at Series B fintech startup", "GRC Analyst at Fortune 500 healthcare company"]
-
-Key Requirements from Job Description:
-[COPY 3-5 KEY BULLETS from the actual job posting - e.g.,
-- "Conduct vendor risk assessments using industry frameworks"
-- "Develop and maintain risk registers"
-- "Communicate findings to senior leadership"
-- "Collaborate with security and legal teams"]
-
-Interview Stage: [STAGE - e.g., "First round with hiring manager", "Second round technical deep-dive", "Final round with CISO"]
-
-My Background to Highlight:
-- [RELEVANT_EXPERIENCE - e.g., "5 years in IT audit", "Implemented SOC 2 at previous company", "Led compliance project"]
-- [TRANSFERABLE_SKILLS - e.g., "Strong stakeholder management", "Technical security background", "Process improvement expertise"]
-- [PORTFOLIO/PROJECTS - e.g., "Built risk assessment framework (personal project)", "Automated compliance tracking"]
-
-My Concerns:
-- [EXPERIENCE_GAPS - e.g., "Never done formal TPRM", "No direct GRC title on resume", "Early career with limited experience"]
-- [CONFIDENCE_AREAS - e.g., "Nervous about technical deep-dive questions", "Unsure how to discuss salary", "Don't know what questions to ask them"]
-
-Generate learning lab that:
-- Builds 15-20 STAR method responses covering common GRC scenarios
-- Maps my actual experience to their requirements
-- Prepares me for technical deep-dive questions
-- Provides compelling answers for experience gaps
-- Coaches me on discussing portfolio projects confidently
-- Includes smart questions to ask interviewers at different levels
-
-Design for practical interview readiness including:
-- Written STAR responses I can practice/memorize
-- Technical question prep for this specific role
-- Salary negotiation guidance
-- "Tell me about yourself" 2-minute pitch
-- How to discuss career transitions positively
-- Red flag identifiers (is this actually a good role?)
-
-Focus on [SPECIFIC_CHALLENGE - e.g., "positioning my security background as GRC strength", "explaining career gap honestly", "demonstrating maturity despite early career", "showing I can handle the technical complexity"].
-```
+Realistic Problem to Solve: [CONCRETE_PROBLEM - e.g., "How do you assess 100+ vendors efficiently with limited resources?", "How do you parse SOC 2 reports faster than manual review?", "How do you build a control library from scratch?", "How do you visualize portfolio risk for executives?"]
 
 ---
 
-## Scenario 3: Career Transition Story & Resume Positioning
+## MY STARTING POINT
 
-**Use this when:** You're changing careers into GRC and need help translating your experience and crafting your narrative
+Current Experience Level: [BASELINE - e.g., "6 months in compliance role, no direct GRC title", "Career changer from IT operations with CISSP", "Fresh graduate with GRC coursework but no hands-on projects", "3 years in audit wanting to move to TPRM"]
 
-### Your Learning Request:
+Technical Skills: [CURRENT_SKILLS - e.g., "Advanced Excel, basic Python", "SQL and data analysis", "No coding, strong in frameworks and communication", "Intermediate Python, learning APIs"]
 
-```
-Reference my GRC Baseline Context above, then:
+GRC Knowledge: [FRAMEWORKS/CERTS - e.g., "Studying for CRISC", "Completed Coursera GRC courses", "Understand SOC 2/ISO 27001 theoretically", "Have CISA certification"]
 
-Create comprehensive guidance for positioning my career transition into GRC.
-
-My Background: [PREVIOUS_CAREER - e.g., "8 years as software engineer", "5 years in accounting/audit", "Project manager in consulting", "IT operations"]
-
-Why I'm Transitioning: [AUTHENTIC_REASON - e.g., "Want more strategic role vs. tactical execution", "Interested in risk management and organizational impact", "GRC aligns with my risk-aware personality"]
-
-Target GRC Role: [SPECIFIC_ROLE - e.g., "GRC Analyst", "Third-Party Risk Manager", "Compliance Program Manager"]
-
-What I Bring from Previous Career:
-- [TRANSFERABLE_SKILL_1 - e.g., "Technical understanding of systems and infrastructure"]
-- [TRANSFERABLE_SKILL_2 - e.g., "Process improvement and documentation expertise"]
-- [TRANSFERABLE_SKILL_3 - e.g., "Cross-functional collaboration and influence"]
-
-What I'm Learning/Building:
-- [GRC_KNOWLEDGE - e.g., "Completed CRISC certification", "Built portfolio projects", "Learning risk frameworks"]
-
-My Challenges:
-- [GAP_1 - e.g., "Resume is all technical roles, no GRC keywords"]
-- [GAP_2 - e.g., "How do I explain why I'm changing careers without sounding uncertain?"]
-- [GAP_3 - e.g., "Competing with people who have GRC experience"]
-
-Generate learning lab that:
-- Helps me craft a compelling career transition narrative
-- Rewrites my resume to highlight GRC-relevant experience
-- Provides LinkedIn optimization for GRC roles
-- Creates talking points for "Why GRC?" question
-- Identifies my unique value proposition vs. traditional candidates
-- Builds confidence in my decision
-
-Design for practical career transition success including:
-- Before/after resume versions
-- LinkedIn profile updates with GRC positioning
-- Cover letter template explaining transition
-- "Why I'm transitioning" 1-minute answer
-- How to position my background as an asset, not a liability
-- Networking strategies for breaking into GRC
-
-Focus on [SPECIFIC_ANGLE - e.g., "my technical background is rare in GRC and valuable", "my audit experience translates directly to control testing", "my project management skills are exactly what GRC programs need"].
-```
+Biggest Skill Gaps: [HONEST_GAPS - e.g., "Never actually conducted a vendor assessment", "Weak on quantitative risk analysis", "Haven't used GRC tools like OneTrust", "Struggle with executive communication"]
 
 ---
 
-## Scenario 4: Technical Demonstration & Skills Proof
+## TIME & RESOURCES
 
-**Use this when:** Interviews include technical assessments, take-home assignments, or you need to prove hands-on capability
+Time Commitment: [REALISTIC_HOURS - e.g., "15-20 hours total over 4 weeks", "2 hours on weekends for 6 weeks", "Intensive 30-hour week for immediate job search"]
 
-### Your Learning Request:
+Tools I Have Access To: [AVAILABLE_TOOLS - e.g., "Google Workspace, basic Python setup", "Excel, no cloud access", "Can use free tiers of tools", "Have access to sample SOC 2 reports from friends"]
 
-```
-Reference my GRC Baseline Context above, then:
-
-Create comprehensive preparation for technical demonstration in GRC interviews.
-
-Expected Assessment Type: [FORMAT - e.g., "Live risk assessment case study", "Take-home: build a risk framework", "Present on how you'd approach their TPRM program", "Technical Q&A on frameworks and tools"]
-
-What I Need to Demonstrate:
-- [SKILL_1 - e.g., "Risk assessment methodology"]
-- [SKILL_2 - e.g., "Stakeholder communication"]
-- [SKILL_3 - e.g., "Tool proficiency (Excel, GRC platforms)"]
-- [SKILL_4 - e.g., "Framework knowledge (NIST, ISO 27001, SOC 2)"]
-
-My Preparation Status:
-- [STRENGTH_1 - e.g., "Strong framework knowledge from studying"]
-- [STRENGTH_2 - e.g., "Good presenter"]
-- [GAP_1 - e.g., "Haven't done live risk assessment before"]
-- [GAP_2 - e.g., "Nervous about technical deep-dive questions"]
-
-Time Until Assessment: [TIMELINE - e.g., "3 days", "1 week", "2 weeks"]
-
-Generate learning lab that:
-- Simulates realistic technical scenarios for this role
-- Provides frameworks for approaching case studies
-- Builds confidence through practice exercises
-- Teaches how to "think out loud" during assessments
-- Includes common pitfalls to avoid
-- Offers recovery strategies if I don't know an answer
-
-Design for technical interview readiness including:
-- Practice case studies with solutions
-- Framework cheat sheets (what to reference when)
-- Templates for structuring my responses
-- Technical terminology I should use confidently
-- How to ask clarifying questions effectively
-- Time management for timed assessments
-
-Focus on [SPECIFIC_ASSESSMENT - e.g., "conducting a vendor risk assessment on the spot", "designing a control testing approach", "presenting a risk to executives", "evaluating a SOC 2 report"].
-```
+Constraints: [LIMITATIONS - e.g., "No access to real company data", "Limited coding background", "Can't afford paid tools", "Need beginner-friendly approach"]
 
 ---
 
-## Scenario 5: Networking & Informational Interviews
+## PORTFOLIO DELIVERABLES
 
-**Use this when:** You need to build connections in GRC, learn about opportunities, or get insider perspectives
+The lab should result in these specific artifacts I can share with employers:
 
-### Your Learning Request:
+### Core Project Deliverable
+[MAIN_ARTIFACT - e.g., "Python script that extracts key data from SOC 2 PDFs and outputs risk scores to spreadsheet", "Excel-based vendor risk scoring model with 30+ sample assessments", "Complete control testing framework with documentation", "Interactive risk dashboard in Google Sheets"]
 
-```
-Reference my GRC Baseline Context above, then:
+### Blog Post for LinkedIn/Medium
+Generate outline and guidance for writing a blog post about this project including:
+- Compelling title that shows business value (not just technical)
+- Problem statement that GRC professionals will relate to
+- High-level approach (methodology, not code dump)
+- Key insights and lessons learned
+- Results/impact metrics if applicable
+- Professional tone that demonstrates thought leadership
+- Appropriate length: [PREFERENCE - e.g., "800-1200 words", "Quick 500-word overview", "In-depth 2000-word technical deep-dive"]
 
-Create comprehensive guidance for GRC networking and informational interviews.
+### LinkedIn Content Strategy
+Create templates for sharing this project on LinkedIn:
+- **Announcement post** when starting the project (build in public)
+- **Progress update** at midpoint showing work-in-progress
+- **Launch post** when completed with link to blog/GitHub
+- **Lesson learned post** highlighting key takeaways
+- Each post should be [TONE - e.g., "authentic and humble, not bragging", "confident and professional", "conversational and relatable"]
 
-My Networking Goals:
-- [GOAL_1 - e.g., "Learn about different GRC career paths"]
-- [GOAL_2 - e.g., "Get insider perspective on companies I'm considering"]
-- [GOAL_3 - e.g., "Find mentors in TPRM space"]
-- [GOAL_4 - e.g., "Discover unadvertised job opportunities"]
+### STAR Method Interview Talking Points
+Provide 3-5 structured STAR responses I can use when discussing this project in interviews:
+- Situation: Why I built this / what problem I was solving
+- Task: What I set out to accomplish
+- Action: Specific steps I took (technical and process)
+- Result: What I achieved and what I learned
 
-My Current Network: [BASELINE - e.g., "Strong in tech but no GRC connections", "Alumni network to tap", "Active on LinkedIn but haven't leveraged it"]
+Frame these for: [INTERVIEW_CONTEXT - e.g., "explaining to non-technical hiring managers", "demonstrating technical depth to CISO", "showing initiative to future team lead"]
 
-My Networking Challenges:
-- [CHALLENGE_1 - e.g., "Don't know how to ask for informational interviews"]
-- [CHALLENGE_2 - e.g., "Uncomfortable with networking, feels transactional"]
-- [CHALLENGE_3 - e.g., "Not sure what to ask or how to add value to conversation"]
+### GitHub Repository Structure
+Provide recommended structure for documenting this project:
+- Professional README with clear value proposition
+- Setup/installation instructions (if applicable)
+- Example usage with screenshots
+- Lessons learned section
+- License and attribution
+- Appropriate level of technical detail for: [AUDIENCE - e.g., "other GRC analysts who might use it", "recruiters browsing my portfolio", "technical interviews"]
 
-Time Investment: [REALISTIC_COMMITMENT - e.g., "2-3 informational interviews per week", "1 hour/day on LinkedIn engagement"]
-
-Generate learning lab that:
-- Teaches authentic networking (not transactional)
-- Provides templates for outreach messages
-- Prepares me for informational interviews
-- Shows how to maintain relationships long-term
-- Includes strategies for introverts
-- Offers ways to add value to my network
-
-Design for networking success including:
-- LinkedIn profile optimization for discoverability
-- Outreach message templates (with high response rates)
-- Informational interview question guides
-- Follow-up and relationship maintenance strategies
-- How to ask for referrals without being pushy
-- Building genuine GRC community connections
-
-Focus on [SPECIFIC_NEED - e.g., "breaking into fintech GRC", "learning about consulting vs. in-house roles", "finding companies with strong GRC cultures", "connecting with other career changers"].
-```
+### Resume Bullet Points
+Generate 2-3 strong resume bullet points that quantify impact:
+- Lead with action verbs appropriate for GRC
+- Include metrics where possible
+- Demonstrate both technical and business skills
+- Format for: [RESUME_STYLE - e.g., "traditional corporate resume", "tech-focused startup resume", "consulting firm application"]
 
 ---
 
-## 📝 Tips for Job Seekers
+## LEARNING APPROACH
 
-### Treat Learning Labs as Portfolio Projects
-Every lab you complete is a project you can discuss in interviews. Document your work and be ready to walk through your approach.
+Teach me through: [LEARNING_STYLE - e.g., "hands-on exercises with detailed explanations", "learn-by-doing with minimal theory", "concepts first, then application", "copy-paste friendly for non-coders"]
 
-### Focus on Demonstrable Skills
-"I completed a course on risk management" < "I built a quantitative vendor risk scoring model and tested it on 50 public companies"
+Break down the lab into: [TIMEFRAME - e.g., "4-week progressive build", "2-week intensive sprint", "Weekend crash course", "Flexible self-paced modules"]
 
-### Build in Public
-Share your learning journey on LinkedIn. Recruiters notice people actively building GRC skills.
+Focus on: [SKILL_PRIORITY - e.g., "equal balance of technical + communication skills", "heavily weighted toward technical execution", "more focus on presentation and storytelling than technical depth"]
 
-### Be Honest About Gaps
-"I haven't done formal TPRM yet, but I built this assessment framework to teach myself. Here's what I learned..." is compelling.
+---
 
-### Time Your Projects Strategically
-Build projects that match the roles you're applying for. If targeting TPRM roles, do vendor assessment projects.
+## INTERVIEW PREPARATION
+
+Additionally, include these interview-ready components:
+
+### Project Presentation
+A 5-minute walkthrough script I can use to present this project, covering:
+- Problem and motivation
+- Approach and methodology
+- Demo of key functionality
+- Results and lessons learned
+- Future enhancements
+
+### Technical Deep-Dive Prep
+Anticipated technical questions about my approach and how to answer them confidently
+
+### Addressing My Experience Gaps
+How to frame this project as evidence of capability despite [SPECIFIC_GAP - e.g., "never having a GRC job title", "being early career", "coming from different field"]
+
+### Differentiator Messaging
+Why this project makes me stand out from candidates with [COMPETITOR_PROFILE - e.g., "traditional GRC backgrounds but no technical skills", "coursework but no applied projects", "more experience but no evidence of initiative"]
+
+---
+
+## SUCCESS CRITERIA
+
+I'll know this lab is successful if:
+- [ ] I can confidently walk through the project in interviews without notes
+- [ ] The project demonstrates skills listed in my target job descriptions
+- [ ] I have public artifacts I can link in applications (blog post, GitHub)
+- [ ] I understand the "why" behind my approach, not just the "how"
+- [ ] I can speak to what I'd do differently next time (shows critical thinking)
+- [ ] The project helps me get past resume screens and into conversations
+
+---
+
+## ADDITIONAL CONTEXT
+
+Interview Timeline: [URGENCY - e.g., "Interviews starting in 2 weeks, need this ASAP", "Actively applying, building portfolio over next month", "Not urgent, taking time to build quality project"]
+
+Specific Companies/Roles I'm Targeting: [TARGET_EMPLOYERS - e.g., "Fintech startups with 50-500 employees", "Big 4 consulting GRC practice", "Enterprise F500 internal GRC teams"]
+
+What Would Impress My Target Employers: [HIRING_PRIORITIES - e.g., "Scrappy problem-solving with limited resources", "Technical automation skills rare in GRC", "Strong communication and stakeholder management", "Ability to work independently"]
+
+Career Story to Support: [NARRATIVE - e.g., "Career changer bringing technical skills to GRC", "Early career with high initiative and fast learner", "Experienced professional formalizing into GRC", "Returning to workforce after gap, showing current skills"]
+```
 
 ---
 
 ## 🎯 What You'll Get
 
-Based on your completed prompt, the AI will generate:
+A complete learning lab that produces:
 
-1. **Structured preparation plan** (typically 2-6 weeks depending on timeline)
-2. **Hands-on projects** that become portfolio pieces
-3. **STAR method responses** for common GRC interview questions
-4. **Technical demonstration practice** with realistic scenarios
-5. **Resume and LinkedIn optimization** for GRC roles
-6. **Confidence-building exercises** for interviews
-7. **Networking scripts and strategies**
-
----
-
-## ✅ Ready to Generate Your Lab?
-
-1. Copy the [system_prompt.md](../system_prompt.md) with your completed baseline
-2. Copy ONE scenario above that matches your goal
-3. Customize all [BRACKETED] sections
-4. Paste into ChatGPT, Claude, or your preferred AI assistant
-5. Receive your personalized interview prep / portfolio building plan!
+✅ **Working project** you can demo in interviews
+✅ **Blog post outline** ready to write and publish
+✅ **LinkedIn content strategy** with ready-to-post templates
+✅ **STAR method responses** for behavioral interviews
+✅ **GitHub repository structure** for professional portfolio
+✅ **Resume bullet points** that quantify your impact
+✅ **Interview presentation script** for technical discussions
+✅ **Technical Q&A prep** for deep-dive interviews
 
 ---
 
-**Need inspiration?** Check out the [job seeking example](../examples/02_job_seeking_portfolio/) to see a complete lab for building a GRC portfolio.
+## 📝 Tips for Success
+
+**Build in Public:** Share your progress on LinkedIn as you go. "Week 2 of building a vendor risk scoring model - just figured out how to normalize qualitative inputs!" gets attention.
+
+**Focus on Business Value:** Your project should solve a real GRC problem, not just be a technical exercise. "Built Python script" < "Reduced SOC 2 review time by 75%"
+
+**Document Everything:** Your future self (and interviewers) will thank you. README files and blog posts force you to articulate your thinking.
+
+**Be Honest About Limitations:** "This uses sample data, but in production I'd need to address X, Y, Z" shows mature thinking.
+
+**Iterate After Feedback:** After first interview where you present this, refine based on questions you struggled with.
+
+---
+
+## ✅ Ready to Build?
+
+1. Complete your [your_grc_profile.md](../your_grc_profile.md)
+2. Fill out ALL [BRACKETED] sections above
+3. Copy both into ChatGPT, Claude, or your preferred AI assistant
+4. Receive your personalized learning lab with portfolio deliverables!
+
+---
+
+**Need inspiration?** Check out [examples/](../examples/) to see complete labs with all deliverables.
