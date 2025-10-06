@@ -52,13 +52,13 @@ Every lab generates:
 
 This shows what the AI generates when you submit your profile + prompt:
 
-| Example | Situation | Lab Goal | What Gets Generated |
-|---------|-----------|----------|---------------------|
-| [SOC 2 Document Analysis](examples/01_employed_soc2_parsing/) | Employed TPRM Lead, 500+ vendors | Automate manual SOC 2 reviews | 12-week progressive lab with Python scripts, reducing review time from 3 hours to 30 minutes |
+| Example | Situation | Lab Goal | Sample Deliverables Built | Result |
+|---------|-----------|----------|---------------------------|--------|
+| [SOC 2 Document Analysis](examples/01_employed_soc2_parsing/) | Employed TPRM Lead, 500+ vendors | Automate manual SOC 2 reviews | • PDF text extraction scripts<br>• Regex patterns for section finding<br>• CSV data output pipeline<br>• Google Sheets API integration<br>• Risk scoring calculator<br>• Executive dashboard | 75% time reduction (3 hours → 30 min per review) |
 
 **→ [See the full example](examples/01_employed_soc2_parsing/)**
 
-This is exactly what you'll receive - a complete, multi-week learning plan tailored to your context.
+This is exactly what you'll receive - a complete, multi-week learning plan with real code, templates, and frameworks you can use immediately.
 
 ---
 
