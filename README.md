@@ -2,7 +2,7 @@
 
 > **Create personalized GRC learning labs tailored to YOUR context, experience, and goals**
 
-Traditional GRC training is one-size-fits-none. This framework generates custom learning experiences that match your technical level, work with your actual systems, and address your specific challenges.
+Traditional GRC training is one-size-fits-none. This framework generates custom learning experiences that match your technical level, work with your actual systems, and address your specific challenges - whether you're in healthcare using Excel or fintech automating SOC 2 with Python.
 
 ---
 
@@ -60,6 +60,8 @@ This shows what the AI generates when you submit your profile + prompt:
 
 This is exactly what you'll receive - a complete, multi-week learning plan with real code, templates, and frameworks you can use immediately.
 
+*While this example uses Python + Google Sheets, the framework generates labs for any tool stack (Excel, OneTrust, ServiceNow, etc.), any framework (HIPAA, NIST, ISO, PCI), and any industry - tailored to what YOU actually use at work.*
+
 ---
 
 ## 🎯 How It Works
@@ -98,6 +100,9 @@ A: Absolutely! They're yours. Use for work, portfolio, interviews, presentations
 
 **Q: Do I need to share my company's confidential information?**
 A: No. The baseline context is about your environment structure, not specific data. You control what you share.
+
+**Q: Do I need specific tools or technical skills?**
+A: No. You specify what you have (Excel, GRC platforms, coding skills, etc.) and your technical level. Labs adapt to YOUR environment - from non-technical process improvements to advanced automation.
 
 ---
 
