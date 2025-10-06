@@ -239,6 +239,10 @@ Ask yourself:
 
 **Learning Motivation:** [WHY - e.g., "Career advancement/promotion", "Job requirement", "Preparing for career transition", "Personal curiosity", "Team improvement", "Build consulting practice"]
 
+**Previous Career/Background:** [IF_TRANSITIONING - e.g., "N/A - always been in GRC", "5 years as IT Security Analyst", "Internal Auditor at Big 4", "Software Engineer for 8 years", "Project Manager", "Compliance Coordinator" - Use this if you're transitioning into GRC]
+
+**Immediate Timeline Pressures:** [CURRENT_URGENCY - e.g., "None - flexible learning", "Board meeting in 6 weeks", "Audit starting in 2 months", "Performance review in 90 days", "Job interviews scheduled", "New role starting next month"]
+
 ---
 
 ## 💼 Professional & Organizational Profile

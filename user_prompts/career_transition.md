@@ -24,27 +24,21 @@ Create a comprehensive learning lab that helps me establish credibility in my ne
 
 ## TRANSITION CONTEXT
 
-Previous Role: [OLD_ROLE - e.g., "IT Security Analyst for 5 years", "Internal Auditor at Big 4", "Project Manager in tech", "Software Engineer", "Compliance Coordinator"]
+**Note:** Your previous role and background are already captured in your_grc_profile.md (Previous Career/Background field). Reference that here.
 
 New GRC Role: [NEW_ROLE - e.g., "GRC Program Manager", "Third-Party Risk Analyst", "Risk & Compliance Lead", "Vendor Security Manager"]
 
 Time in Role: [DURATION - e.g., "Starting in 2 weeks", "30 days in", "Just hit 60-day mark", "First week complete"]
 
-Why I Transitioned: [AUTHENTIC_REASON - e.g., "Wanted more strategic role vs tactical execution", "GRC program expansion created opportunity", "Saw GRC skills gap in market", "Company needed someone with my technical + risk background"]
-
 ---
 
-## MY ADVANTAGES & GAPS
+## MY TRANSITION ADVANTAGES
 
-What I Bring from Previous Career:
-- [STRENGTH_1 - e.g., "Deep technical security knowledge", "Audit methodology and controls testing experience", "Process improvement and automation skills", "Strong stakeholder management and influence"]
-- [STRENGTH_2 - e.g., "Project management and organization", "Data analysis and Excel power user", "Documentation and technical writing", "Cross-functional collaboration"]
-- [STRENGTH_3 - e.g., "Vendor relationship management", "Understanding of engineering workflows", "Financial analysis and business cases", "Change management experience"]
+**Note:** Your technical strengths and gaps are already in your_grc_profile.md. Focus here on HOW to position them.
 
-Biggest GRC Knowledge Gaps:
-- [GAP_1 - e.g., "Never led a formal vendor risk assessment", "Don't understand NIST/ISO frameworks well", "Haven't worked with GRC platforms like OneTrust", "Weak on regulatory compliance requirements"]
-- [GAP_2 - e.g., "No experience presenting to board/executives", "Don't know how to build risk registers", "Unfamiliar with third-party questionnaires (SIG, CAIQ)", "Haven't managed full GRC program lifecycle"]
-- [GAP_3 - e.g., "Not sure how to quantify risk", "Weak on policy writing", "Don't know audit preparation processes", "Limited compliance framework knowledge"]
+How My Previous Experience Helps in GRC:
+- [POSITIONING_1 - e.g., "My IT security background lets me automate GRC work others do manually", "My audit experience brings rigor to risk assessments that pure GRC folks might miss"]
+- [POSITIONING_2 - e.g., "Fresh perspective helps identify process improvements veterans overlook", "Cross-functional experience bridges GRC and technical teams effectively"]
 
 ---
 
@@ -74,15 +68,11 @@ What Would Build Credibility Fast:
 
 ---
 
-## TIME & RESOURCES
+## SUPPORT & RESOURCES
 
-Time Commitment: [REALISTIC_HOURS - e.g., "5-10 hours/week outside work hours for learning", "Weekend intensive to prep for Monday", "30 min/day during commute for study"]
+**Note:** Tools and time availability are in your_grc_profile.md. Focus here on role-specific support.
 
-Timeline Pressure: [URGENCY - e.g., "Performance review at 90 days", "Major audit in 2 months", "Quarterly board presentation coming up", "Annual planning cycle starting soon"]
-
-Tools & Access I Have: [RESOURCES - e.g., "Access to OneTrust GRC platform", "Google Workspace and basic Python setup", "Salesforce and vendor data exports", "Previous documentation from predecessor", "Budget for training if I can show ROI"]
-
-Support Available: [HELP - e.g., "Mentor in another department", "Manager is supportive but hands-off", "Team willing to teach but busy", "External consultant available for questions"]
+Support Available: [HELP - e.g., "Mentor in another department", "Manager is supportive but hands-off", "Team willing to teach but busy", "External consultant available for questions", "Predecessor left documentation", "No support - figuring it out alone"]
 
 ---
 
@@ -159,7 +149,7 @@ I'll know this lab is successful if:
 
 ---
 
-## ADDITIONAL CONTEXT
+## TRANSITION SUCCESS METRICS
 
 What "Success" Looks Like at 90 Days:
 - [IDEAL_OUTCOME - e.g., "Manager says I exceeded expectations", "Team asks for my input on strategic decisions", "I present to board and it goes well", "CISO stops questioning my every move", "I'm given expanded scope or new initiative"]
@@ -169,9 +159,6 @@ My Biggest Fear:
 
 What Would Make Me Feel Confident:
 - [CONFIDENCE_BUILDER - e.g., "Successfully completing several vendor assessments", "Getting positive unsolicited feedback", "Being asked to lead project or train others", "Delivering something that impresses the skeptics"]
-
-Long-Term Career Vision:
-- [FUTURE_GOAL - e.g., "Establish myself in GRC for 2-3 years then move to senior role", "Build GRC expertise then pivot to consulting", "Become go-to person for GRC automation and efficiency", "Eventually lead entire GRC program"]
 ```
 
 ---

@@ -46,21 +46,7 @@ Team & Resources: [CONTEXT - e.g., "Team of 1 (just me)", "Team of 3 but I'm onl
 
 ---
 
-## TECHNICAL STARTING POINT
-
-Current Technical Skills: [HONEST_ASSESSMENT - e.g., "Advanced Excel, basic Python", "No coding, strong in frameworks and process design", "SQL comfortable, Python learning", "Can use tools but never built anything from scratch"]
-
-Tools I Have Access To: [AVAILABLE_RESOURCES - e.g., "Google Workspace, can install Python", "Microsoft 365, Power BI available", "Salesforce, limited API access", "OneTrust GRC platform", "Free/open-source tools only"]
-
-Technical Constraints: [LIMITATIONS - e.g., "Can't access production databases directly", "IT security blocks most installations", "No budget for paid tools", "Need solutions that don't require dev team support"]
-
-Learning Style Preference: [HOW_YOU_LEARN - e.g., "Hands-on with examples I can copy-paste", "Need concepts explained before diving in", "Learn by doing, minimal theory", "Need step-by-step for technical stuff"]
-
----
-
-## TIME & URGENCY
-
-Time Commitment: [REALISTIC_HOURS - e.g., "5 hours/week for 8 weeks", "2 hours/weekend for 6 weeks", "Intensive 30-hour sprint over 2 weeks"]
+## PROJECT URGENCY
 
 Timeline Driver: [WHY_NOW - e.g., "Board meeting in 6 weeks and need dashboard", "Performance review in 3 months", "Company scaling fast and current process breaking", "New initiative launching Q1"]
 
@@ -95,28 +81,6 @@ Define how I'll measure impact:
 
 ---
 
-## LEARNING APPROACH
-
-Structure: Break the lab into [TIMEFRAME - e.g., "6-week progressive build", "4-week intensive sprint", "Weekend-sized chunks I can complete flexibly"]
-
-Teach me through: [STYLE - e.g., "Step-by-step with screenshots for technical parts", "Concepts first then application", "Learning by doing with troubleshooting guidance", "Code I can copy-paste with explanations"]
-
-Balance: [FOCUS_RATIO - e.g., "70% building the tool, 30% stakeholder communication", "Equal parts technical + presentation skills", "Heavy on documentation and handoff (I'll build it but others will maintain)"]
-
-Difficulty Level: [CHALLENGE - e.g., "Push me to learn new skills but not overwhelming", "Stay within my current capabilities", "Ambitious but achievable given my time constraints"]
-
----
-
-## ORGANIZATIONAL CONTEXT
-
-Company Culture: [CULTURE_FIT - e.g., "Fast-moving startup, scrappy solutions valued", "Enterprise corporate, need polished deliverables", "Risk-averse, need to show this is tried-and-true", "Innovation-focused, experimental approaches encouraged"]
-
-Stakeholder Expectations: [WHAT_THEY_VALUE - e.g., "CFO cares about ROI and metrics", "CISO wants defensible risk decisions", "Board wants clear visualizations and trends", "CEO wants proof we're scaling efficiently"]
-
-Approval/Politics: [NAVIGATION - e.g., "Need to show quick wins before asking for budget", "Have executive support already, just need to deliver", "Skeptical stakeholders who think current process is fine", "Competing priorities, need to prove this is urgent"]
-
----
-
 ## SUCCESS CRITERIA
 
 I'll know this lab is successful if:
@@ -129,11 +93,7 @@ I'll know this lab is successful if:
 
 ---
 
-## ADDITIONAL CONTEXT
-
-Career Goal This Supports: [BIGGER_PICTURE - e.g., "Promotion to Senior Analyst in next 6 months", "Transition from execution to strategy role", "Build reputation as go-to person for GRC automation", "Foundation for consulting side business eventually"]
-
-Skills I Want to Develop: [LEARNING_GOALS - e.g., "Python for GRC automation", "Executive communication and storytelling", "Data visualization and dashboard design", "Framework design and documentation"]
+## PROJECT ASPIRATIONS
 
 What Would Make This a "Home Run": [IDEAL_OUTCOME - e.g., "Leadership asks me to roll this out company-wide", "I present this at all-hands and get recognition", "This becomes the standard way we do this process", "I teach this to other teams and become internal expert"]
 

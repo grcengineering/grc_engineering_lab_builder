@@ -34,25 +34,47 @@ Realistic Problem to Solve: [CONCRETE_PROBLEM - e.g., "How do you assess 100+ ve
 
 ---
 
-## MY STARTING POINT
+## TARGET JOB DESCRIPTIONS
 
-Current Experience Level: [BASELINE - e.g., "6 months in compliance role, no direct GRC title", "Career changer from IT operations with CISSP", "Fresh graduate with GRC coursework but no hands-on projects", "3 years in audit wanting to move to TPRM"]
+**IMPORTANT:** Copy-paste 1-2 actual job descriptions you're targeting below. This helps tailor the lab to match exactly what employers are looking for.
 
-Technical Skills: [CURRENT_SKILLS - e.g., "Advanced Excel, basic Python", "SQL and data analysis", "No coding, strong in frameworks and communication", "Intermediate Python, learning APIs"]
+### Job Description #1:
+```
+[PASTE FULL JOB DESCRIPTION HERE - e.g.,
 
-GRC Knowledge: [FRAMEWORKS/CERTS - e.g., "Studying for CRISC", "Completed Coursera GRC courses", "Understand SOC 2/ISO 27001 theoretically", "Have CISA certification"]
+Title: Third-Party Risk Management Analyst
+Company: Acme FinTech
 
-Biggest Skill Gaps: [HONEST_GAPS - e.g., "Never actually conducted a vendor assessment", "Weak on quantitative risk analysis", "Haven't used GRC tools like OneTrust", "Struggle with executive communication"]
+About the Role:
+We're seeking a TPRM Analyst to manage our growing vendor portfolio...
 
----
+Responsibilities:
+- Conduct risk assessments for 200+ third-party vendors
+- Review and analyze SOC 2, ISO 27001, and other security documentation
+- Maintain vendor risk scoring methodology and risk register
+- Collaborate with legal, security, and procurement teams
+- Present risk findings to senior leadership
+- Develop and maintain vendor assessment questionnaires
 
-## TIME & RESOURCES
+Requirements:
+- 2+ years in GRC, risk management, or related field
+- Understanding of security frameworks (SOC 2, ISO 27001, NIST)
+- Strong analytical and communication skills
+- Experience with GRC platforms preferred
+- Bachelor's degree in relevant field
+]
+```
 
-Time Commitment: [REALISTIC_HOURS - e.g., "15-20 hours total over 4 weeks", "2 hours on weekends for 6 weeks", "Intensive 30-hour week for immediate job search"]
+### Job Description #2 (Optional):
+```
+[PASTE SECOND JOB DESCRIPTION HERE if you're targeting multiple role types]
+```
 
-Tools I Have Access To: [AVAILABLE_TOOLS - e.g., "Google Workspace, basic Python setup", "Excel, no cloud access", "Can use free tiers of tools", "Have access to sample SOC 2 reports from friends"]
-
-Constraints: [LIMITATIONS - e.g., "No access to real company data", "Limited coding background", "Can't afford paid tools", "Need beginner-friendly approach"]
+**Based on these job descriptions, identify:**
+- Common skills appearing across both roles: [LIST - e.g., "SOC 2 analysis", "Risk scoring", "Stakeholder communication"]
+- Skills I have: [LIST]
+- Skills I need to demonstrate: [LIST]
+- Technical tools mentioned: [LIST - e.g., "OneTrust", "Excel", "Python"]
 
 ---
 
@@ -105,16 +127,13 @@ Generate 2-3 strong resume bullet points that quantify impact:
 - Include metrics where possible
 - Demonstrate both technical and business skills
 - Format for: [RESUME_STYLE - e.g., "traditional corporate resume", "tech-focused startup resume", "consulting firm application"]
+- **Mirror language from job descriptions above** (use their keywords and phrases)
 
----
-
-## LEARNING APPROACH
-
-Teach me through: [LEARNING_STYLE - e.g., "hands-on exercises with detailed explanations", "learn-by-doing with minimal theory", "concepts first, then application", "copy-paste friendly for non-coders"]
-
-Break down the lab into: [TIMEFRAME - e.g., "4-week progressive build", "2-week intensive sprint", "Weekend crash course", "Flexible self-paced modules"]
-
-Focus on: [SKILL_PRIORITY - e.g., "equal balance of technical + communication skills", "heavily weighted toward technical execution", "more focus on presentation and storytelling than technical depth"]
+### Job Description Alignment Guide
+Create a mapping showing how this project demonstrates specific requirements from the job descriptions:
+- For each "Responsibility" in the job description, explain how my project proves I can do it
+- For each "Requirement," show how my project fills the gap or demonstrates the skill
+- Specific examples: "Job says 'analyze SOC 2 reports' → My project shows I built tool to parse SOC 2s and extract key findings in 45 minutes vs 3 hours manually"
 
 ---
 
@@ -153,15 +172,13 @@ I'll know this lab is successful if:
 
 ---
 
-## ADDITIONAL CONTEXT
+## JOB SEARCH CONTEXT
 
 Interview Timeline: [URGENCY - e.g., "Interviews starting in 2 weeks, need this ASAP", "Actively applying, building portfolio over next month", "Not urgent, taking time to build quality project"]
 
 Specific Companies/Roles I'm Targeting: [TARGET_EMPLOYERS - e.g., "Fintech startups with 50-500 employees", "Big 4 consulting GRC practice", "Enterprise F500 internal GRC teams"]
 
 What Would Impress My Target Employers: [HIRING_PRIORITIES - e.g., "Scrappy problem-solving with limited resources", "Technical automation skills rare in GRC", "Strong communication and stakeholder management", "Ability to work independently"]
-
-Career Story to Support: [NARRATIVE - e.g., "Career changer bringing technical skills to GRC", "Early career with high initiative and fast learner", "Experienced professional formalizing into GRC", "Returning to workforce after gap, showing current skills"]
 ```
 
 ---
