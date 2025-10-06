@@ -116,10 +116,10 @@ A: No. You specify what you have (Excel, GRC platforms, coding skills, etc.) and
 
 ## 🤝 Contributing
 
-Have a great lab example to share? Found a better prompt structure? Contributions welcome!
+Have a great lab example to share? Found a better prompt structure? Contributions are welcome!
 
 1. Fork the repository
-2. Create your feature branch
+2. Create your feature branch 
 3. Submit a pull request
 
 We're especially interested in:
@@ -132,7 +132,7 @@ We're especially interested in:
 
 ## 📄 License
 
-MIT License - Free to use, modify, and share.
+MIT License - Free to use, modify, and share. 
 
 ---
 
