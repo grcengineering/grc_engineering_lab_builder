@@ -8,9 +8,9 @@ Traditional GRC training is one-size-fits-none. This framework generates custom 
 
 ## 🚀 Quick Start (15 minutes to your first lab)
 
-### 1️⃣ Copy the System Prompt
+### 1️⃣ Complete Your GRC Profile
 
-Open **[system_prompt.md](system_prompt.md)** and fill in your personal details in the GRC Baseline Context section.
+Open **[your_grc_profile.md](your_grc_profile.md)** and fill in your personal details in the "✏️ YOUR INFORMATION" section.
 
 This tells the AI about:
 - Your role and technical background
@@ -30,7 +30,7 @@ This tells the AI about:
 ### 3️⃣ Generate Your Lab
 
 1. Open ChatGPT, Claude, or any AI assistant
-2. Paste your completed system prompt
+2. Paste your completed GRC profile
 3. Paste your chosen user prompt
 4. Submit → Get your personalized learning lab!
 
@@ -101,7 +101,7 @@ A: No. The baseline context is about your environment structure, not specific da
 
 ## 🎓 Ready to Start?
 
-1. **[Fill out system prompt](system_prompt.md)** ← Start here
+1. **[Complete your GRC profile](your_grc_profile.md)** ← Start here
 2. **[Choose your user prompt](user_prompts/)**
 3. **[See examples](examples/)**
 

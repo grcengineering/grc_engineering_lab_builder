@@ -1,6 +1,6 @@
 # User Prompts - Choose Your Path
 
-Once you've completed your [GRC Baseline Context](../system_prompt.md), choose the prompt that matches your current situation and goals.
+Once you've completed your [GRC Profile](../your_grc_profile.md), choose the prompt that matches your current situation and goals.
 
 ---
 
@@ -78,11 +78,11 @@ You can always switch prompts later or combine elements from multiple prompts!
 
 ## 🚀 How to Use These Prompts
 
-1. **Complete your baseline context** in [system_prompt.md](../system_prompt.md)
+1. **Complete your GRC profile** in [your_grc_profile.md](../your_grc_profile.md)
 2. **Choose one prompt file** from this folder based on your situation
 3. **Open the file** and follow the instructions
 4. **Customize the bracketed sections** [LIKE THIS] with your specific details
-5. **Submit to your AI assistant** (ChatGPT, Claude, etc.) along with your completed baseline
+5. **Submit to your AI assistant** (ChatGPT, Claude, etc.) along with your completed profile
 
 ---
 
@@ -91,7 +91,7 @@ You can always switch prompts later or combine elements from multiple prompts!
 ### ChatGPT (Recommended: GPT-4 or GPT-4o)
 
 1. Start a new chat
-2. Paste your completed baseline context from system_prompt.md
+2. Paste your completed GRC profile from your_grc_profile.md
 3. Paste your chosen user prompt
 4. Submit and receive your personalized lab
 
@@ -101,20 +101,20 @@ You can always switch prompts later or combine elements from multiple prompts!
 
 **Option A: Use Claude Projects** (Recommended)
 1. Create a new Project
-2. Add system_prompt.md as project knowledge
+2. Add your_grc_profile.md as project knowledge
 3. In the chat, paste your chosen user prompt
-4. Your baseline is already loaded from project knowledge
+4. Your profile is already loaded from project knowledge
 
 **Option B: Regular Chat**
 1. Start a new conversation
-2. Paste your completed baseline context
+2. Paste your completed GRC profile
 3. Paste your chosen user prompt
 4. Submit
 
 ### Google Gemini
 
 1. Open Gemini
-2. Paste your completed baseline context
+2. Paste your completed GRC profile
 3. Paste your chosen user prompt
 4. Submit
 
