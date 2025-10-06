@@ -48,15 +48,17 @@ Every lab generates:
 
 ---
 
-## 📦 See Real Examples
+## 📦 See a Real Example
 
-| Example | Situation | Lab Goal | Artifact Built | Result |
-|---------|-----------|----------|----------------|--------|
-| [SOC 2 Parsing](examples/01_employed_soc2_parsing/) | Employed TPRM Lead | Automate vendor doc review | Python extraction tool | 3 hours → 30 min per review |
-| [Job Portfolio](examples/02_job_seeking_portfolio/) | Career changer seeking role | Build demonstrable projects | GRC portfolio + STAR responses | 3 interviews in 2 weeks |
-| [Quick Wins](examples/03_transition_quick_wins/) | IT → GRC transition | Establish credibility fast | Process improvement doc | Won over skeptical team |
+This shows what the AI generates when you submit your profile + prompt:
 
-**→ [Browse all examples](examples/)**
+| Example | Situation | Lab Goal | What Gets Generated |
+|---------|-----------|----------|---------------------|
+| [SOC 2 Document Analysis](examples/01_employed_soc2_parsing/) | Employed TPRM Lead, 500+ vendors | Automate manual SOC 2 reviews | 12-week progressive lab with Python scripts, reducing review time from 3 hours to 30 minutes |
+
+**→ [See the full example](examples/01_employed_soc2_parsing/)**
+
+This is exactly what you'll receive - a complete, multi-week learning plan tailored to your context.
 
 ---
 
@@ -111,7 +113,15 @@ A: No. The baseline context is about your environment structure, not specific da
 
 Have a great lab example to share? Found a better prompt structure? Contributions welcome!
 
-**[Contribution guidelines coming soon]**
+1. Fork the repository
+2. Create your feature branch
+3. Submit a pull request
+
+We're especially interested in:
+- New example labs from different GRC contexts
+- Improved prompt templates
+- Additional use cases and scenarios
+- Bug fixes and documentation improvements
 
 ---
 

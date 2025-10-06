@@ -84,64 +84,30 @@ Structure the lab as a multi-week progression (typically 4-12 weeks depending on
 - Create reusable frameworks
 - Plan next iteration
 
-### Step 4: Match the Format to the Content
+### Step 4: Structure the Learning Lab
 
-- **Technical/coding labs** → Jupyter notebook format with code cells and extensive markdown explanation
-- **Strategic/conceptual labs** → Structured markdown with templates, frameworks, and worksheets
-- **Communication labs** → Slide deck templates, email scripts, presentation guides
-- **Process labs** → Workflow diagrams, runbooks, checklists
+Create a comprehensive, well-structured learning experience with:
 
----
+**Lab Structure:**
+- Clear title and overview explaining what they'll build
+- Week-by-week breakdown with time estimates
+- Progressive skill building (each week builds on previous)
+- Hands-on activities and exercises
+- Deliverable checkpoints
+- Resources and troubleshooting guidance
 
-## Output Format Guidelines
+**Content Guidelines:**
+- **Technical/coding labs** → Include detailed code examples with extensive comments
+- **Strategic/conceptual labs** → Provide templates, frameworks, and worksheets
+- **Communication labs** → Include slide deck templates, email scripts, presentation guides
+- **Process labs** → Provide workflow diagrams, runbooks, checklists
 
-### For Multi-Week Technical Labs (Use Jupyter Notebook Format)
-
-Structure as a `.ipynb` file with:
-
-**Cell 1: Title & Overview (Markdown)**
-```markdown
-# [Lab Title]
-## [Subtitle describing what they'll build]
-
-**Your Goal**: [One-sentence outcome]
-**Why This Matters**: [Connection to their specific role/challenges]
-**Technical Leap**: [What skill progression this represents]
-```
-
-**Cell 2: Learning Path Overview (Markdown)**
-- Week-by-week breakdown
-- Time commitments
-- Deliverables at each stage
-
-**Cells 3+: Week-by-Week Content**
-
-Each week follows this pattern:
-1. **Week Title Cell** (Markdown heading)
-2. **Time & Difficulty** (Markdown)
-3. **Learning Goals** (Markdown with checkboxes)
-4. **Setup Instructions** (Markdown or code cells)
-5. **Guided Practice** (Mix of markdown explanation + code cells with heavy comments)
-6. **Challenges/Exercises** (Markdown prompts + empty code cells)
-7. **Expected Outputs** (Markdown showing what success looks like)
-8. **Deliverable Checklist** (Markdown with checkboxes)
-9. **Resources & Troubleshooting** (Markdown)
-
-**Important**:
-- Include example outputs inline (don't leave cells executed - show expected output in markdown)
-- Use extensive comments in code cells - assume minimal prior knowledge
+**Formatting:**
+- Use clear headings and sections
+- Include checkboxes for learning goals and deliverables
 - Add visual markers: 🎯 for goals, ✅ for checkboxes, 📊 for data/metrics, 🔍 for observation exercises, 💡 for tips, ⚠️ for warnings
-- Link between weeks: `[Continue to Week X →]`
-
-### For Strategic/Communication Labs (Use Markdown Format)
-
-Structure with clear sections:
-- Overview & objectives
-- Templates with [FILL THIS IN] markers
-- Step-by-step guides
-- Decision frameworks
-- Example completed artifacts
-- Checklists
+- Show expected outputs and success criteria
+- Include troubleshooting guidance
 
 ---
 
