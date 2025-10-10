@@ -4,13 +4,67 @@
  */
 
 /* ============================================
+   ANIMATIONS
+   ============================================ */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation utility classes */
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.animate-delay-1 {
+  animation-delay: 0.1s;
+  animation-fill-mode: backwards;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.2s;
+  animation-fill-mode: backwards;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.3s;
+  animation-fill-mode: backwards;
+}
+
+.animate-delay-4 {
+  animation-delay: 0.4s;
+  animation-fill-mode: backwards;
+}
+
+/* ============================================
    HEADER
    ============================================ */
 
 .header {
-  background-color: var(--color-surface);
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--color-border);
-  padding: var(--spacing-lg) 0;
+  padding: var(--spacing-xl) 0;
   position: sticky;
   top: 0;
   z-index: var(--z-sticky);
@@ -58,23 +112,51 @@
    ============================================ */
 
 .hero {
-  padding: var(--spacing-4xl) 0;
-  background: linear-gradient(135deg, rgba(123, 44, 191, 0.05) 0%, rgba(6, 167, 125, 0.05) 100%);
+  padding: var(--spacing-5xl) 0;
+  background: var(--gradient-hero);
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-title {
-  font-size: var(--font-size-5xl);
+  font-size: var(--font-size-7xl);
   font-weight: var(--font-weight-bold);
-  line-height: var(--line-height-tight);
+  line-height: 1.1;
   color: var(--color-text);
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+  letter-spacing: -0.02em;
+}
+
+/* Multi-color text spans */
+.text-gradient-purple {
+  background: linear-gradient(135deg, #7B2CBF, #9D4EDD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-green {
+  background: linear-gradient(135deg, #06A77D, #10B981);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-blue {
+  background: linear-gradient(135deg, #3B82F6, #5B8DEF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hero-subtitle {
-  font-size: var(--font-size-xl);
-  color: var(--color-text-secondary);
+  font-size: var(--font-size-2xl);
+  color: rgba(33, 37, 41, 0.8);
   line-height: var(--line-height-relaxed);
-  margin-bottom: var(--spacing-2xl);
+  margin-bottom: var(--spacing-3xl);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-actions {
@@ -350,12 +432,16 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    padding: var(--spacing-3xl) 0;
+  }
+
   .hero-title {
-    font-size: var(--font-size-3xl);
+    font-size: var(--font-size-5xl);
   }
 
   .hero-subtitle {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-xl);
   }
 
   .hero-actions {
@@ -401,6 +487,14 @@
 
   .hero {
     padding: var(--spacing-2xl) 0;
+  }
+
+  .hero-title {
+    font-size: var(--font-size-4xl);
+  }
+
+  .hero-subtitle {
+    font-size: var(--font-size-lg);
   }
 
   .section {
