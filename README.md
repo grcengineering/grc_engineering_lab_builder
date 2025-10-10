@@ -6,7 +6,7 @@ Traditional GRC training is one-size-fits-none. This framework generates custom 
 
 ---
 
-## 🌐 **NEW: Web App Available!**
+## 🌐 **Web App Available!**
 
 **The easiest way to generate your prompts:** [**Launch Web App →**](https://grcengineering.github.io/grc_engineering_lab_builder/)
 
