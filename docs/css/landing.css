@@ -168,26 +168,17 @@
   letter-spacing: -0.02em;
 }
 
-/* Multi-color text spans */
+/* Multi-color text spans - now solid black */
 .text-gradient-orange {
-  background: linear-gradient(135deg, #FF6B35, #FF8C61);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #212529;
 }
 
 .text-gradient-coral {
-  background: linear-gradient(135deg, #FF8C61, #FFA07A);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #212529;
 }
 
 .text-gradient-teal {
-  background: linear-gradient(135deg, #2A9D8F, #3DB5A5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #212529;
 }
 
 .hero-subtitle {
