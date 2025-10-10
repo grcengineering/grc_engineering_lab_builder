@@ -6,20 +6,36 @@ Traditional GRC training is one-size-fits-none. This framework generates custom 
 
 ---
 
-## 🚀 Quick Start (15 minutes to your first lab)
+## 🌐 **NEW: Web App Available!**
 
-### 1️⃣ Complete Your GRC Profile
+**The easiest way to generate your prompts:** [**Launch Web App →**](https://grcengineering.github.io/grc_engineering_lab_builder/)
+
+✨ Fill out simple forms → Get copy-paste-ready prompts → Use with Claude or ChatGPT
+
+✅ No file editing • No markdown knowledge needed • Works on mobile
+
+---
+
+## 🚀 Quick Start (5 minutes to your first lab)
+
+### Option 1: Use the Web App (Recommended) ✨
+
+1. **[Open the web app →](https://grcengineering.github.io/grc_engineering_lab_builder/)**
+2. Fill out your GRC profile (10-15 questions)
+3. Choose your scenario (Employed, Job Seeking, or Transitioning)
+4. Copy the generated prompts
+5. Paste into Claude or ChatGPT → Get your lab!
+
+### Option 2: Use Markdown Files (Advanced)
+
+<details>
+<summary>Click to expand markdown workflow</summary>
+
+#### 1️⃣ Complete Your GRC Profile
 
 Open **[your_grc_profile.md](your_grc_profile.md)** and fill in your personal details in the "✏️ YOUR INFORMATION" section.
 
-This tells the AI about:
-- Your role and technical background
-- Your organization and systems
-- Your goals and constraints
-
-### 2️⃣ Choose Your Objective
-
-**Pick the prompt that matches where you are:**
+#### 2️⃣ Choose Your Objective
 
 | Your Situation | Use This Prompt | What You'll Build |
 |----------------|-----------------|-------------------|
@@ -27,7 +43,7 @@ This tells the AI about:
 | 🔍 **Looking for your first GRC job** | [job_seeking.md](user_prompts/job_seeking.md) | Portfolio projects, interview prep, demos |
 | 🔄 **Transitioning into GRC** | [career_transition.md](user_prompts/career_transition.md) | Quick wins, credibility builders, stakeholder tools |
 
-### 3️⃣ Generate Your Lab
+#### 3️⃣ Generate Your Lab
 
 1. Open ChatGPT, Claude, or any AI assistant
 2. Paste your completed GRC profile
@@ -35,6 +51,8 @@ This tells the AI about:
 4. Submit → Get your personalized learning lab!
 
 **[See how to set this up in different AI tools →](user_prompts/README.md)**
+
+</details>
 
 ---
 

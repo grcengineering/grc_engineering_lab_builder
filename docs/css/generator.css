@@ -1,0 +1,295 @@
+/**
+ * Generator App Styles
+ * Specific styles for generator.html
+ */
+
+/* ============================================
+   APP HEADER
+   ============================================ */
+
+.app-header {
+  background-color: var(--color-surface);
+  border-bottom: 2px solid var(--color-border);
+  padding: var(--spacing-lg) 0;
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+}
+
+.app-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-lg);
+}
+
+.back-link {
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+  transition: color var(--transition-fast);
+}
+
+.back-link:hover {
+  color: var(--color-primary);
+}
+
+.app-title {
+  flex: 1;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  margin: 0;
+}
+
+/* ============================================
+   APP MAIN
+   ============================================ */
+
+.app-main {
+  padding: var(--spacing-2xl) 0;
+  min-height: calc(100vh - 200px);
+}
+
+/* ============================================
+   FORM STEPS
+   ============================================ */
+
+.form-step {
+  display: none;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.form-step.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.step-header {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.step-header h2 {
+  margin-bottom: var(--spacing-sm);
+}
+
+/* ============================================
+   SCENARIO GRID
+   ============================================ */
+
+.scenario-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.scenario-icon {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+.card h3 {
+  margin-bottom: var(--spacing-sm);
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.card .badge {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+/* ============================================
+   SCENARIO FORMS
+   ============================================ */
+
+#scenario-form-container {
+  margin-top: var(--spacing-2xl);
+}
+
+.scenario-form {
+  display: none;
+}
+
+.scenario-form.active {
+  display: block;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.scenario-form-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.back-to-scenarios {
+  display: inline-block;
+  color: var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-md);
+  cursor: pointer;
+}
+
+.back-to-scenarios:hover {
+  color: var(--color-primary-dark);
+}
+
+/* ============================================
+   FORM ACTIONS
+   ============================================ */
+
+.form-actions {
+  margin-top: var(--spacing-2xl);
+  display: flex;
+  gap: var(--spacing-md);
+  flex-direction: column;
+}
+
+/* ============================================
+   INSTRUCTIONS BOX
+   ============================================ */
+
+.instructions-box {
+  background: linear-gradient(135deg, rgba(123, 44, 191, 0.05) 0%, rgba(6, 167, 125, 0.05) 100%);
+  border: 2px solid var(--color-primary-light);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.instructions-box h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.instructions-box ol {
+  list-style: decimal;
+  padding-left: var(--spacing-lg);
+}
+
+.instructions-box li {
+  margin-bottom: var(--spacing-sm);
+  line-height: var(--line-height-relaxed);
+}
+
+/* ============================================
+   SETUP GUIDES
+   ============================================ */
+
+.setup-guides {
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.setup-guides h3 {
+  margin-bottom: var(--spacing-lg);
+}
+
+.guide-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.guide-link {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background-color: var(--color-background);
+  border: 2px solid var(--color-border);
+  border-radius: var(--border-radius-md);
+  transition: all var(--transition-fast);
+  color: var(--color-text);
+  font-weight: var(--font-weight-medium);
+}
+
+.guide-link:hover {
+  border-color: var(--color-primary);
+  transform: translateX(4px);
+}
+
+.guide-icon {
+  font-size: var(--font-size-xl);
+}
+
+/* ============================================
+   TOAST
+   ============================================ */
+
+#toast-container {
+  position: fixed;
+  bottom: var(--spacing-xl);
+  right: var(--spacing-xl);
+  z-index: var(--z-tooltip);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .scenario-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-header-content {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+
+  .app-title {
+    font-size: var(--font-size-lg);
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+
+  .guide-links {
+    flex-direction: column;
+  }
+
+  #toast-container {
+    left: var(--spacing-md);
+    right: var(--spacing-md);
+    bottom: var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .app-main {
+    padding: var(--spacing-lg) 0;
+  }
+
+  fieldset {
+    padding: var(--spacing-md);
+  }
+
+  .instructions-box,
+  .setup-guides {
+    padding: var(--spacing-md);
+  }
+}

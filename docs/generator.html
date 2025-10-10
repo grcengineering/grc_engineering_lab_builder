@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Your Lab - GRC Engineering Lab Builder</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/generator.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="app-header">
+        <div class="container">
+            <div class="app-header-content">
+                <a href="index.html" class="back-link">← Back to Home</a>
+                <h1 class="app-title">GRC Lab Builder</h1>
+                <button id="save-progress-btn" class="btn btn-small btn-secondary" onclick="saveProgress()">
+                    💾 Save Progress
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="app-main">
+        <div class="container container-narrow">
+
+            <!-- Progress Bar -->
+            <div class="progress-bar">
+                <div class="progress-step active" data-step="1">
+                    <div class="progress-step-content">
+                        <div class="progress-step-number">1</div>
+                        <div class="progress-step-label">Profile</div>
+                    </div>
+                </div>
+                <div class="progress-step" data-step="2">
+                    <div class="progress-step-content">
+                        <div class="progress-step-number">2</div>
+                        <div class="progress-step-label">Scenario</div>
+                    </div>
+                </div>
+                <div class="progress-step" data-step="3">
+                    <div class="progress-step-content">
+                        <div class="progress-step-number">3</div>
+                        <div class="progress-step-label">Prompts</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 1: Profile Form -->
+            <div id="step-1" class="form-step active">
+                <div class="step-header">
+                    <h2>Step 1 of 3: Your GRC Profile</h2>
+                    <p class="text-secondary">This creates your "system prompt" - reusable for all labs</p>
+                </div>
+
+                <form id="profile-form">
+                    <!-- Personal & Technical -->
+                    <fieldset>
+                        <legend>👤 Personal & Technical Profile</legend>
+
+                        <div class="form-group">
+                            <label for="role" class="form-label required">Current Role</label>
+                            <input
+                                type="text"
+                                id="role"
+                                name="role"
+                                class="form-input"
+                                placeholder="e.g., TPRM Lead, Compliance Manager, Risk Analyst"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label required">Technical Skill Level</label>
+                            <div class="form-radio-group">
+                                <label class="form-radio">
+                                    <input type="radio" name="tech_level" value="non_technical" required>
+                                    <span>Non-technical (no coding experience)</span>
+                                </label>
+                                <label class="form-radio">
+                                    <input type="radio" name="tech_level" value="basic" required>
+                                    <span>Basic (can write simple scripts/formulas)</span>
+                                </label>
+                                <label class="form-radio">
+                                    <input type="radio" name="tech_level" value="intermediate" required>
+                                    <span>Intermediate (comfortable with Python/SQL)</span>
+                                </label>
+                                <label class="form-radio">
+                                    <input type="radio" name="tech_level" value="advanced" required>
+                                    <span>Advanced (can build full applications)</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="coding_exp" class="form-label">Coding Experience</label>
+                            <textarea
+                                id="coding_exp"
+                                name="coding_exp"
+                                class="form-textarea"
+                                placeholder="e.g., Never coded, Basic Excel macros, Python for data analysis"
+                                rows="3"
+                            ></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="strong_areas" class="form-label">Strongest Technical Areas</label>
+                            <input
+                                type="text"
+                                id="strong_areas"
+                                name="strong_areas"
+                                class="form-input"
+                                placeholder="e.g., Excel, SQL, Python, Google Apps Script"
+                            >
+                        </div>
+                    </fieldset>
+
+                    <!-- Professional & Organizational -->
+                    <fieldset>
+                        <legend>💼 Professional & Organizational Profile</legend>
+
+                        <div class="form-group">
+                            <label for="industry" class="form-label required">Industry</label>
+                            <input
+                                type="text"
+                                id="industry"
+                                name="industry"
+                                class="form-input"
+                                placeholder="e.g., FinTech, Healthcare, B2B SaaS, Manufacturing"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company_size" class="form-label required">Company Size</label>
+                            <select id="company_size" name="company_size" class="form-select" required>
+                                <option value="">Choose...</option>
+                                <option value="startup">&lt;100 employees (startup)</option>
+                                <option value="small">100-500 employees</option>
+                                <option value="mid">500-5000 employees</option>
+                                <option value="large">5000+ employees (enterprise)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="team_structure" class="form-label required">GRC Team Structure</label>
+                            <select id="team_structure" name="team_structure" class="form-select" required>
+                                <option value="">Choose...</option>
+                                <option value="solo">Solo GRC team (just me)</option>
+                                <option value="small">2-5 people</option>
+                                <option value="medium">6-15 people</option>
+                                <option value="large">15+ people</option>
+                            </select>
+                        </div>
+                    </fieldset>
+
+                    <!-- GRC Program Context -->
+                    <fieldset>
+                        <legend>🎯 GRC Program Context</legend>
+
+                        <div class="form-group">
+                            <label for="grc_tools" class="form-label required">Primary GRC Tools</label>
+                            <input
+                                type="text"
+                                id="grc_tools"
+                                name="grc_tools"
+                                class="form-input"
+                                placeholder="e.g., Excel, Vanta, OneTrust, ServiceNow GRC"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="frameworks" class="form-label required">Compliance Frameworks</label>
+                            <input
+                                type="text"
+                                id="frameworks"
+                                name="frameworks"
+                                class="form-input"
+                                placeholder="e.g., SOC 2, ISO 27001, HIPAA, GDPR, PCI DSS"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="challenges" class="form-label required">Current Challenges (top 2-3)</label>
+                            <textarea
+                                id="challenges"
+                                name="challenges"
+                                class="form-textarea"
+                                placeholder="e.g., Manual vendor reviews taking too long, Board wants risk dashboard, No automated evidence collection"
+                                rows="4"
+                                required
+                            ></textarea>
+                        </div>
+                    </fieldset>
+
+                    <!-- Time & Goals -->
+                    <fieldset>
+                        <legend>⏱️ Time & Goals</legend>
+
+                        <div class="form-group">
+                            <label for="time_available" class="form-label required">Time Availability</label>
+                            <select id="time_available" name="time_available" class="form-select" required>
+                                <option value="">Choose...</option>
+                                <option value="limited">2-5 hours/week (limited)</option>
+                                <option value="moderate">5-10 hours/week (moderate)</option>
+                                <option value="dedicated">10+ hours/week (dedicated)</option>
+                                <option value="intensive">Intensive sprint (full-time for 1-2 weeks)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="career_goal" class="form-label">Career Goal (6-12 months)</label>
+                            <textarea
+                                id="career_goal"
+                                name="career_goal"
+                                class="form-textarea"
+                                placeholder="e.g., Get promoted to Senior, Land TPRM role at Series B startup"
+                                rows="2"
+                            ></textarea>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-actions">
+                        <div class="alert alert-info">
+                            💡 Tip: The more specific you are, the better your lab will be!
+                        </div>
+                        <button type="button" class="btn btn-primary btn-large btn-block" onclick="nextStep(2)">
+                            Next: Choose Scenario →
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Step 2: Scenario Selection -->
+            <div id="step-2" class="form-step">
+                <div class="step-header">
+                    <h2>Step 2 of 3: What Do You Want to Build?</h2>
+                    <p class="text-secondary">Choose the scenario that matches your situation</p>
+                </div>
+
+                <div class="scenario-grid">
+                    <div class="card card-clickable" onclick="selectScenario('employed')">
+                        <div class="scenario-icon">📊</div>
+                        <h3>Solve Work Problem</h3>
+                        <p>Build automation, dashboards, or frameworks for your current role</p>
+                        <span class="badge badge-primary">Employed</span>
+                    </div>
+
+                    <div class="card card-clickable" onclick="selectScenario('job_seeking')">
+                        <div class="scenario-icon">🎯</div>
+                        <h3>Build Portfolio</h3>
+                        <p>Create projects demonstrating skills for target roles</p>
+                        <span class="badge badge-secondary">Job Seeking</span>
+                    </div>
+
+                    <div class="card card-clickable" onclick="selectScenario('transition')">
+                        <div class="scenario-icon">🚀</div>
+                        <h3>Quick Wins</h3>
+                        <p>Establish credibility in first 90 days of new GRC role</p>
+                        <span class="badge badge-success">Career Change</span>
+                    </div>
+                </div>
+
+                <!-- Scenario Forms (will be populated by JS) -->
+                <div id="scenario-form-container" style="display:none;">
+                    <!-- Dynamic forms will be inserted here -->
+                </div>
+
+                <div class="form-actions" style="margin-top: var(--spacing-xl);">
+                    <button type="button" class="btn btn-secondary" onclick="prevStep(1)">
+                        ← Back to Profile
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 3: Generated Prompts -->
+            <div id="step-3" class="form-step">
+                <div class="step-header">
+                    <h2>Step 3 of 3: Your Prompts Are Ready! ✅</h2>
+                </div>
+
+                <div class="instructions-box">
+                    <h3>📖 How to Use These Prompts</h3>
+                    <ol>
+                        <li><strong>Copy the System Prompt below</strong> → Paste into Claude Project settings (or save for ChatGPT)</li>
+                        <li><strong>Copy the User Prompt below</strong> → Paste into your AI chat</li>
+                        <li><strong>Get your personalized lab!</strong> The AI will generate a complete learning plan</li>
+                    </ol>
+                </div>
+
+                <!-- System Prompt -->
+                <div class="prompt-container">
+                    <div class="prompt-header">
+                        <h3>📋 System Prompt (Your GRC Profile)</h3>
+                        <button class="btn btn-small btn-primary" onclick="copyPrompt('system')">
+                            📋 Copy
+                        </button>
+                    </div>
+                    <pre id="system-prompt" class="prompt-box"></pre>
+                    <p class="form-help">💡 Save this prompt! You can reuse it for unlimited labs</p>
+                </div>
+
+                <!-- User Prompt -->
+                <div class="prompt-container">
+                    <div class="prompt-header">
+                        <h3>💬 User Prompt (Your Lab Request)</h3>
+                        <button class="btn btn-small btn-primary" onclick="copyPrompt('user')">
+                            📋 Copy
+                        </button>
+                    </div>
+                    <pre id="user-prompt" class="prompt-box"></pre>
+                </div>
+
+                <!-- Setup Guides -->
+                <div class="setup-guides">
+                    <h3>🎯 Quick Setup Guides</h3>
+                    <div class="guide-links">
+                        <a href="guides/claude-setup.html" target="_blank" class="guide-link">
+                            <span class="guide-icon">🔵</span>
+                            How to use in Claude Projects
+                        </a>
+                        <a href="guides/chatgpt-setup.html" target="_blank" class="guide-link">
+                            <span class="guide-icon">🟢</span>
+                            How to use in ChatGPT
+                        </a>
+                        <a href="guides/gemini-setup.html" target="_blank" class="guide-link">
+                            <span class="guide-icon">🔴</span>
+                            How to use in Google Gemini
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Actions -->
+                <div class="form-actions">
+                    <button class="btn btn-secondary" onclick="downloadPrompts()">
+                        💾 Download Both Prompts
+                    </button>
+                    <button class="btn btn-primary" onclick="resetForm()">
+                        🔄 Generate Another Lab
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Toast Container -->
+    <div id="toast-container"></div>
+
+    <!-- JavaScript -->
+    <script src="js/state.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/prompt-generator.js"></script>
+    <script src="js/scenario-forms.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
