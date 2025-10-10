@@ -169,22 +169,22 @@
 }
 
 /* Multi-color text spans */
-.text-gradient-purple {
-  background: linear-gradient(135deg, #7B2CBF, #9D4EDD);
+.text-gradient-orange {
+  background: linear-gradient(135deg, #FF6B35, #FF8C61);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-.text-gradient-green {
-  background: linear-gradient(135deg, #06A77D, #10B981);
+.text-gradient-coral {
+  background: linear-gradient(135deg, #FF8C61, #FFA07A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-.text-gradient-blue {
-  background: linear-gradient(135deg, #3B82F6, #5B8DEF);
+.text-gradient-teal {
+  background: linear-gradient(135deg, #2A9D8F, #3DB5A5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

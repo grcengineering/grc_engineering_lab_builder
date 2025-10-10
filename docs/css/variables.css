@@ -5,15 +5,15 @@
 
 :root {
   /* Colors - Primary Palette */
-  --color-primary: #7B2CBF;
-  --color-primary-light: #9D4EDD;
-  --color-primary-dark: #5A189A;
-  --color-primary-hover: #6A1FAF;
+  --color-primary: #FF6B35;
+  --color-primary-light: #FF8C61;
+  --color-primary-dark: #E65520;
+  --color-primary-hover: #FF7A47;
 
   /* Colors - Secondary */
-  --color-secondary: #06A77D;
-  --color-secondary-light: #10B981;
-  --color-secondary-dark: #047857;
+  --color-secondary: #2A9D8F;
+  --color-secondary-light: #3DB5A5;
+  --color-secondary-dark: #238B7D;
 
   /* Colors - Status */
   --color-success: #10B981;
@@ -32,10 +32,10 @@
   --color-border-light: #E9ECEF;
 
   /* Colors - Gradients */
-  --gradient-hero: linear-gradient(135deg, #7B2CBF 0%, #E94560 25%, #F79256 50%, #06A77D 75%, #5B8DEF 100%);
-  --gradient-hero-subtle: linear-gradient(135deg, rgba(123, 44, 191, 0.95) 0%, rgba(233, 69, 96, 0.95) 25%, rgba(247, 146, 86, 0.95) 50%, rgba(6, 167, 125, 0.95) 75%, rgba(91, 141, 239, 0.95) 100%);
-  --gradient-subtle: linear-gradient(135deg, rgba(123, 44, 191, 0.05) 0%, rgba(6, 167, 125, 0.05) 100%);
-  --gradient-card: linear-gradient(145deg, rgba(123, 44, 191, 0.03) 0%, rgba(255, 255, 255, 0.8) 100%);
+  --gradient-hero: linear-gradient(135deg, #FF6B35 0%, #2A9D8F 100%);
+  --gradient-hero-subtle: linear-gradient(135deg, rgba(255, 107, 53, 0.95) 0%, rgba(42, 157, 143, 0.95) 100%);
+  --gradient-subtle: linear-gradient(135deg, rgba(255, 107, 53, 0.05) 0%, rgba(42, 157, 143, 0.05) 100%);
+  --gradient-card: linear-gradient(145deg, rgba(255, 107, 53, 0.03) 0%, rgba(255, 255, 255, 0.8) 100%);
 
   /* Spacing Scale */
   --spacing-xs: 0.25rem;    /* 4px */
@@ -90,9 +90,9 @@
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  --shadow-2xl: 0 25px 50px -12px rgba(123, 44, 191, 0.15);
-  --shadow-3xl: 0 35px 60px -15px rgba(123, 44, 191, 0.2);
-  --shadow-colored: 0 20px 40px -10px rgba(123, 44, 191, 0.25);
+  --shadow-2xl: 0 25px 50px -12px rgba(255, 107, 53, 0.15);
+  --shadow-3xl: 0 35px 60px -15px rgba(255, 107, 53, 0.2);
+  --shadow-colored: 0 20px 40px -10px rgba(255, 107, 53, 0.25);
 
   /* Transitions */
   --transition-fast: 150ms ease-in-out;
