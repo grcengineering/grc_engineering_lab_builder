@@ -7,6 +7,7 @@
 const profileValidationRules = {
   role: { required: true, minLength: 2 },
   tech_level: { required: true },
+  learning_style: { required: true },
   industry: { required: true, minLength: 2 },
   company_size: { required: true },
   team_structure: { required: true },

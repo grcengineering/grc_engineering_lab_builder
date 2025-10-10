@@ -44,6 +44,28 @@ function formatTimeAvailability(time) {
   return map[time] || time;
 }
 
+function formatLearningStyle(style) {
+  const map = {
+    'hands_on': 'Hands-on practice with real examples',
+    'structured': 'Step-by-step guidance and documentation',
+    'visual': 'Visual examples and diagrams',
+    'exploratory': 'Exploratory (figure it out as I go)',
+    'teaching': 'Learning by teaching others'
+  };
+  return map[style] || style;
+}
+
+function getLearningStyleGuidance(style) {
+  const guidance = {
+    'hands_on': 'Focus on doing immediately, minimal explanation upfront. Provide working examples first, explain theory after.',
+    'structured': 'Provide clear step-by-step instructions with detailed documentation. Explain the "why" behind each step.',
+    'visual': 'Include diagrams, flowcharts, and visual aids. Use tables and structured formats. Suggest screenshots.',
+    'exploratory': 'Provide high-level guidance and let them figure out details. Give hints and resources, not explicit steps.',
+    'teaching': 'Frame activities as "teaching exercises" - have them explain concepts back or create teaching materials.'
+  };
+  return guidance[style] || 'Adapt content delivery to their preferred learning approach.';
+}
+
 // Generate System Prompt
 function generateSystemPrompt(profileData) {
   return `You are a GRC (Governance, Risk, and Compliance) learning lab generator. Your goal is to create personalized, practical learning experiences based on the learner's specific context.
@@ -55,6 +77,7 @@ function generateSystemPrompt(profileData) {
 - **Technical Skill Level:** ${formatTechLevel(profileData.tech_level)}
 - **Coding Experience:** ${profileData.coding_exp || 'Not specified'}
 - **Strongest Technical Areas:** ${profileData.strong_areas || 'Not specified'}
+- **Preferred Learning Style:** ${formatLearningStyle(profileData.learning_style)}
 
 ### Professional & Organizational Context
 - **Industry:** ${profileData.industry}
@@ -105,6 +128,8 @@ For each week, include:
 - **Encourage iteration** - Labs should feel like real work, with mistakes and learning
 - **Match their tools** - Use ${profileData.grc_tools}, not generic examples
 - **Respect their challenges** - Address: ${profileData.challenges}
+- **Adapt to learning style** - They prefer ${formatLearningStyle(profileData.learning_style)}, so:
+  ${getLearningStyleGuidance(profileData.learning_style)}
 
 Now wait for the user's specific learning objective.`;
 }
