@@ -79,6 +79,7 @@
   border-color: var(--color-primary);
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
+  background-color: rgba(123, 44, 191, 0.02);
 }
 
 .card-clickable {
