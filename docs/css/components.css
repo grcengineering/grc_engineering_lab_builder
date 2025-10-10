@@ -51,6 +51,17 @@
   box-shadow: var(--shadow-xl);
 }
 
+.btn-teal {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.btn-teal:hover:not(:disabled) {
+  background-color: var(--color-secondary-light);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-xl);
+}
+
 .btn-large {
   padding: var(--spacing-md) var(--spacing-xl);
   font-size: var(--font-size-lg);

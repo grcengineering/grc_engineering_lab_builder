@@ -192,7 +192,7 @@
 
 .hero-subtitle {
   font-size: var(--font-size-2xl);
-  color: rgba(33, 37, 41, 0.8);
+  color: rgba(33, 37, 41, 0.95);
   line-height: var(--line-height-relaxed);
   margin-bottom: var(--spacing-3xl);
   max-width: 700px;
@@ -217,7 +217,7 @@
 
 .hero-meta-item {
   font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
+  color: rgba(33, 37, 41, 0.85);
   font-weight: var(--font-weight-medium);
 }
 
@@ -550,13 +550,15 @@
 }
 
 .cta-section .btn-primary {
-  background-color: white;
-  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  color: white;
+  box-shadow: var(--shadow-lg);
 }
 
 .cta-section .btn-primary:hover {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: var(--color-secondary-light);
   transform: translateY(-2px);
+  box-shadow: var(--shadow-xl);
 }
 
 /* ============================================
